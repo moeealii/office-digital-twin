@@ -1,0 +1,63 @@
+/* Home / Today — 1136 × 752 content box, no scrolling */
+.home {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 184px 1fr;
+  gap: 16px;
+}
+
+/* ---- clock */
+.h-clock { grid-column: 1 / 5; display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 6px; border-bottom: 3px solid var(--ink); }
+.h-time { font-size: var(--fs-clock); line-height: .78; letter-spacing: -.035em; display: flex; align-items: flex-start; }
+.h-ampm { font-size: 28px; font-weight: 800; letter-spacing: .06em; margin: 6px 0 0 10px; }
+.h-date { font-size: 24px; margin-top: 14px; font-family: var(--serif); }
+.h-date b { font-family: var(--sans); font-weight: 800; font-stretch: 75%; text-transform: uppercase; letter-spacing: .06em; font-size: 20px; margin-right: 6px; }
+
+/* ---- weather */
+.h-weather { grid-column: 5 / 10; border-bottom: 3px solid var(--ink); padding: 0 8px 6px; display: flex; flex-direction: column; justify-content: flex-end; }
+.h-wx-top { display: flex; align-items: center; gap: 12px; }
+.h-wx-icon { color: var(--ink); }
+.h-wx-temp { font-size: 84px; line-height: .8; letter-spacing: -.03em; }
+.h-wx-meta { display: flex; flex-direction: column; font-size: 17px; margin-left: 4px; }
+.h-wx-meta b { font-weight: 800; font-stretch: 80%; text-transform: uppercase; letter-spacing: .06em; font-size: 16px; }
+.h-wx-meta span { color: var(--mute); font-variant-numeric: tabular-nums; white-space: pre; }
+.h-wx-say { font-family: var(--serif); font-size: 22px; line-height: 1.15; margin: 8px 0 8px; }
+.h-wx-say b { font-weight: 400; font-style: italic; }
+.h-wx-hours { display: grid; grid-template-columns: repeat(7, 1fr); }
+.h-hr { display: flex; flex-direction: column; align-items: center; gap: 1px; font-size: 16px; }
+.h-hr-l { font-size: var(--fs-min); font-weight: 700; color: var(--mute); text-transform: uppercase; }
+.h-hr-i { height: 26px; margin-top: 6px; display: grid; place-items: center; }   /* room for the temperature lift */
+.h-hr b { font-weight: 800; font-stretch: 70%; }
+.h-hr.is-wet .h-hr-i { color: #1F6FEB; }
+
+/* ---- camera status */
+.h-camstat { grid-column: 10 / 13; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; border-bottom: 3px solid var(--ink); padding: 2px 0 10px; text-align: left; }
+.h-cs-row { display: flex; align-items: center; gap: 10px; min-width: 0; min-height: 26px; }
+.h-cs-row i { width: 10px; height: 10px; border-radius: 50%; background: var(--ok); flex: none; }
+.h-cs-row b { flex: 1; font-size: 18px; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.h-cs-row small { font-size: var(--fs-min); color: var(--mute); white-space: nowrap; }
+.h-cs-row.is-down i { background: var(--alert); }
+.h-cs-row.is-down small { color: var(--alert); font-weight: 800; }
+
+/* ---- cameras + shopping (one 2-column grid; the cam grid's tiles flow into it) */
+.h-camwrap { grid-column: 1 / 9; display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: 10px; min-height: 0; }
+.h-camwrap > .h-cams { display: contents; }
+
+/* ---- photo: the whole right column */
+.h-photo { grid-column: 9 / 13; position: relative; border-radius: var(--r); overflow: hidden; background: var(--paper-2); display: block; width: 100%; }
+.h-photo-stage { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.h-photo-cap {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 40px 18px 14px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+  color: #fff; display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+}
+.h-photo-cap b { font-size: var(--fs-min); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.h-photo-cap span { font-family: var(--serif); font-size: 20px; font-style: italic; }
+
+.h-shop { display: flex; flex-direction: column; gap: 6px; min-height: 0; overflow: hidden; text-align: left; }
+.h-stat { display: flex; align-items: baseline; gap: 8px; }
+.h-stat .num { font-size: 56px; line-height: .9; }
+.h-stat small { font-size: 16px; color: var(--mute); }
+.h-recent li { font-size: 16px; display: flex; align-items: center; gap: 8px; white-space: nowrap; overflow: hidden; line-height: 1.35; }
+.h-recent i { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); flex: none; }

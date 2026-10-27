@@ -1,0 +1,17 @@
+{
+  "exports": {
+    ".": "./src/index.ts",
+    "./scene-editor": "./src/scene-editor/index.ts",
+    "./scene-editor/native": "./src/scene-editor/native.ts",
+    "./tokens.css": "./src/tokens.css",
+    "./ui.css": "./src/ui.css"
+  },
+  "name": "@thealifamily/ui",
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "private": true,
+  "type": "module",
+  "version": "0.0.0"
+}

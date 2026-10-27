@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "sourceHash": "9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612",
+  "binaryHash": "3472ce3d625df7d2ce3ea3ca712fcff51bb159d557bddf327e2ff56afa36e34b",
+  "file": "sculpts-3472ce3d625df7d2ce3ea3ca712fcff51bb159d557bddf327e2ff56afa36e34b.bin.gz",
+  "byteLength": 774204,
+  "compression": "gzip",
+  "geometries": {
+    "bird": {
+      "attributes": {
+        "position": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 0,
+          "length": 3000,
+          "encoding": "xor-shuffle"
+        },
+        "normal": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 12000,
+          "length": 3000,
+          "encoding": "xor-shuffle"
+        },
+        "color": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 24000,
+          "length": 3000,
+          "encoding": "xor-shuffle"
+        }
+      },
+      "index": {
+        "type": "u16",
+        "itemSize": 1,
+        "normalized": false,
+        "offset": 36000,
+        "length": 6012,
+        "encoding": "xor-shuffle"
+      },
+      "groups": []
+    },
+    "kaws": {
+      "attributes": {
+        "position": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 48024,
+          "length": 16602,
+          "encoding": "xor-shuffle"
+        },
+        "normal": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 114432,
+          "length": 16602,
+          "encoding": "xor-shuffle"
+        },
+        "color": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 180840,
+          "length": 16602,
+          "encoding": "xor-shuffle"
+        }
+      },
+      "index": {
+        "type": "u16",
+        "itemSize": 1,
+        "normalized": false,
+        "offset": 247248,
+        "length": 33264,
+        "encoding": "xor-shuffle"
+      },
+      "groups": []
+    },
+    "lavender": {
+      "attributes": {
+        "position": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 313776,
+          "length": 10965,
+          "encoding": "xor-shuffle"
+        },
+        "normal": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 357636,
+          "length": 10965,
+          "encoding": "xor-shuffle"
+        },
+        "color": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 401496,
+          "length": 10965,
+          "encoding": "xor-shuffle"
+        }
+      },
+      "index": {
+        "type": "u16",
+        "itemSize": 1,
+        "normalized": false,
+        "offset": 445356,
+        "length": 21936,
+        "encoding": "xor-shuffle"
+      },
+      "groups": []
+    },
+    "shoe-black": {
+      "attributes": {
+        "position": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 489228,
+          "length": 8922,
+          "encoding": "xor-shuffle"
+        },
+        "normal": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 524916,
+          "length": 8922,
+          "encoding": "xor-shuffle"
+        },
+        "color": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 560604,
+          "length": 8922,
+          "encoding": "xor-shuffle"
+        }
+      },
+      "index": {
+        "type": "u16",
+        "itemSize": 1,
+        "normalized": false,
+        "offset": 596292,
+        "length": 17832,
+        "encoding": "xor-shuffle"
+      },
+      "groups": []
+    },
+    "shoe-grey": {
+      "attributes": {
+        "position": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 631956,
+          "length": 8892,
+          "encoding": "xor-shuffle"
+        },
+        "normal": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 667524,
+          "length": 8892,
+          "encoding": "xor-shuffle"
+        },
+        "color": {
+          "type": "f32",
+          "itemSize": 3,
+          "normalized": false,
+          "offset": 703092,
+          "length": 8892,
+          "encoding": "xor-shuffle"
+        }
+      },
+      "index": {
+        "type": "u16",
+        "itemSize": 1,
+        "normalized": false,
+        "offset": 738660,
+        "length": 17772,
+        "encoding": "xor-shuffle"
+      },
+      "groups": []
+    }
+  }
+}

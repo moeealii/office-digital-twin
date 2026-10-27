@@ -1,0 +1,53 @@
+.world-frame-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.world-frame-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 1280px;
+  height: 800px;
+  border: 0;
+  transform-origin: 0 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity var(--dur-fast) var(--ease-sheet);
+  pointer-events: none;
+  backface-visibility: hidden;
+}
+
+.world-frame-exit {
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  pointer-events: auto;
+}
+
+.world-frame-loading {
+  position: absolute;
+  top: calc(var(--space-6) + var(--space-10));
+  right: var(--space-6);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  color: var(--color-ink);
+  background: var(--twin-glass-strong);
+  font-size: var(--text-xs);
+}
+
+@media (prefers-reduced-motion: reduce) { .world-frame-screen { transition: none; } }
+
+.world-frame-exit kbd {
+  font: inherit;
+  font-size: var(--text-2xs);
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid currentColor;
+  border-radius: var(--radius-sm);
+}

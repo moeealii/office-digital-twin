@@ -1,0 +1,122 @@
+{
+  "repository": "https://github.com/mrdoob/three.js",
+  "tag": "r186",
+  "commit": "9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8",
+  "modules": [
+    {
+      "path": "editor/js/libs/ui.js",
+      "sha256": "54326d613088f938889cffa30e7dcb0072af71c6c9ae2fa232c8b3f303b4402e",
+      "adaptation": "UIElement/Span/Div/Row/Panel/Text/Input/Checkbox/Number/Break/HorizontalRule/Button only; scoped listener registration and finite numbers; cancelable pointer drags. No texture/file widgets."
+    },
+    {
+      "path": "editor/js/libs/ui.three.js",
+      "sha256": "e06c55fc08277fa7ee999b36784e416122c5d6da3265bb98d5c70cbaacf88062",
+      "adaptation": "Actual UIOutliner only. Remove all texture/rendering helpers and drag/reparent implementation. Single selection; keyboard navigation retained."
+    },
+    {
+      "path": "editor/js/Command.js",
+      "sha256": "bf433ed17d9a0e6cae32b27f37baa31c0c8ade2812447ecc948c9dd78440b921",
+      "adaptation": "Actual Command base constructor; omit JSON persistence/deserialization."
+    },
+    {
+      "path": "editor/js/commands/SetPositionCommand.js",
+      "sha256": "2c5812855e0109d09c724f1c63444604161c8e8fe1e690b88aa61b7c4e0ee2be",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Execute/undo/update retained."
+    },
+    {
+      "path": "editor/js/commands/SetRotationCommand.js",
+      "sha256": "530bf35ef3b3c037e6b4ba37f62643332bb0e841f6cc159e563d50f5cf5ec710",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Execute/undo/update retained."
+    },
+    {
+      "path": "editor/js/commands/SetScaleCommand.js",
+      "sha256": "7263ce59626fa91d2279477be821f4c5a13522471a77b80269cf9b8acd108476",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Execute/undo/update retained."
+    },
+    {
+      "path": "editor/js/commands/SetValueCommand.js",
+      "sha256": "8ff548c4e083a848c5a72a8b02749c01bb95b281b4c2a2731823e2995b0294d0",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Restrict value changes to name/visibility."
+    },
+    {
+      "path": "editor/js/commands/AddObjectCommand.js",
+      "sha256": "b84c4e5fa1731216b55889c7ab1cf23d011e8910bf3bba015eb7ee64dc7df733",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Retain explicit parent/index for duplicate and redo."
+    },
+    {
+      "path": "editor/js/commands/RemoveObjectCommand.js",
+      "sha256": "a34c834f42995353aa7015138f9553f507e959d911c3ae8569fad94c7d5d76d9",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Execute/undo/update retained."
+    },
+    {
+      "path": "editor/js/commands/MultiCmdsCommand.js",
+      "sha256": "6eacfdde05f8353169a8d9cb0ee97af8bad9354c1becf3b6d7279d724d9f8051",
+      "adaptation": "In-memory official command; no JSON/ObjectLoader. Execute/undo/update retained."
+    },
+    {
+      "path": "editor/js/History.js",
+      "sha256": "13671b7af827bc01327b7b9c64573ffbea9ccc34ec8153f42bcf78760b0fd3fe",
+      "adaptation": "One actual official History; execute/coalescing/undo/redo/clear. Remove player hooks, script merge special-case and ALL serialization/rehydration. Break coalescing across undo/redo."
+    },
+    {
+      "path": "editor/js/Selector.js",
+      "sha256": "9443dcdeb7efae1d05c8e896c528fef9273b5e30d7c200c1ba3e7ee217199e57",
+      "adaptation": "Official single selection/config/signal core only. Engine owns picking, helpers and multi-object transforms; no independent raycaster/viewport."
+    },
+    {
+      "path": "editor/js/Strings.js",
+      "sha256": "8e0f33aa9778034b3d93c096f243ba565d24072d2f027b56a418a3d1c3cc4d4a",
+      "adaptation": "Actual English strings and lookup implementation; retain only visible subset keys. Session language is English."
+    },
+    {
+      "path": "editor/js/Editor.js",
+      "sha256": "124ac8bff971ec89f0eed5c1e0a9d1e9a178e66e35d4c5c4b02953f4e91a9fe3",
+      "adaptation": "Actual Editor/command/selection/signal methods. Adopt engine Scene/Camera by identity; inject session config/storage. Remove Config/Storage/Loader, helper/resource ownership, renderer, scripts, players, imports/exports, JSON/APP and clear/reset. addObject uses Object3D.add then stable sibling insertion."
+    },
+    {
+      "path": "editor/js/Sidebar.Scene.js",
+      "sha256": "eaa90aae0f01067ec30a9af8a55babe41fea0e11c644e2a0905d8a701b02bcc9",
+      "adaptation": "Actual outliner construction, escaped names, expansion, selection and refresh listeners only. No background/environment/fog/script UI, main camera row, reparent or multi-selection. Null-safe ancestors; tree accessibility labels; scoped listeners."
+    },
+    {
+      "path": "editor/js/Sidebar.Object.js",
+      "sha256": "ce7f9e5b9220aec100d94fd2fd136a6cd9f20a264e6ebe1c5ad46fa115fd7743",
+      "adaptation": "Actual native numeric/name/visibility inspector and official commands. Omit UUID/camera/light/shadow/userData/export controls. Preserve Euler order; accept sub-centimeter edits; accessibility labels. Roots are not editable."
+    },
+    {
+      "path": "editor/js/Toolbar.js",
+      "sha256": "249cc64b50c06e6f0d2391a6e64cc06428ffa8b40e19031b174b42ab67ca3779",
+      "adaptation": "Actual translate/rotate/scale toolbar and signals. Inline local SVG data; accessible button state. Host hides it without a real engine transform-controls capability."
+    },
+    {
+      "path": "editor/js/Menubar.Edit.js",
+      "sha256": "b323b39f13618962f961a636634a297627d201e92d179c34ad6e7edd94663cf6",
+      "adaptation": "Actual Edit menu undo/redo/clone/delete command handlers. Remove center (invalid local/world subtraction) and special target deletion; keep light targets engine-owned. Duplicate retains parent and sibling order and uses engine-safe clone adapter; no scripts/import/export."
+    },
+    {
+      "path": "editor/js/libs/signals.min.js",
+      "sha256": "ee17ae5ef0aa629eaa4a728ba672f3fe59706eb8ae640e5cb3ede7ffe5da6e60",
+      "adaptation": "Actual JS Signals 1.0.0, MIT Miller Medeiros notice retained. Local factory scope instead of UMD/global export."
+    },
+    {
+      "path": "editor/css/main.css",
+      "sha256": "13f14276613cd6f7834cade32e74968ad0b84de6c2108bd29d23e57f86091fdc",
+      "adaptation": "Retain actual outliner/menu/inspector/toolbar rules with token-derived dark glass overrides. Full-canvas pointer-transparent overlay; compact native dock; explicitly toggled Objects tree; contextual inspector, mobile height bounds, keyboard focus, and native menu actions."
+    },
+    {
+      "path": "editor/images/translate.svg",
+      "sha256": "d930c96a43fd37ccbab3929dc10647c6b94c2e54bd643bb6abde0fc0a598f1b2",
+      "adaptation": "Unchanged SVG encoded as local data URL; no image/network request."
+    },
+    {
+      "path": "editor/images/rotate.svg",
+      "sha256": "a277ca507781d73f86ad530ddd4d4cd9705e62bfd11f3a8a6d4e53515122b81e",
+      "adaptation": "Unchanged SVG encoded as local data URL; no image/network request."
+    },
+    {
+      "path": "editor/images/scale.svg",
+      "sha256": "d25ce50c6ae9e9fbcb39d0d8ffda68043dba38c8947a0e012af35d062803c72d",
+      "adaptation": "Unchanged SVG encoded as local data URL; no image/network request."
+    }
+  ]
+}

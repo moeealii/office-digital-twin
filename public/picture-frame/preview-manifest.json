@@ -1,0 +1,144 @@
+{
+  "generator": "home-hq-public-preview/v3",
+  "files": {
+    "index.html": {
+      "bytes": 3712,
+      "sha256": "c50d5f1ba184f28795616999b743da0c634545e2be2016f2ef1fb816954cdd78",
+      "source": "public-home/index.html",
+      "sourceSha256": "c50d5f1ba184f28795616999b743da0c634545e2be2016f2ef1fb816954cdd78"
+    },
+    "public-entry.js": {
+      "bytes": 2155,
+      "sha256": "bfda317ae0280682dc0a8f7050b07d37f30b81b376aaef46d2a6fc454b95eea5",
+      "source": "public-home/public-entry.js",
+      "sourceSha256": "bfda317ae0280682dc0a8f7050b07d37f30b81b376aaef46d2a6fc454b95eea5"
+    },
+    "public-theme.js": {
+      "bytes": 902,
+      "sha256": "d22197511032adca66ee9b8285197439d112d9c6374c5242cb7b13d546b44c05",
+      "source": "public-home/public-theme.js",
+      "sourceSha256": "d22197511032adca66ee9b8285197439d112d9c6374c5242cb7b13d546b44c05"
+    },
+    "demo-adapters.js": {
+      "bytes": 11768,
+      "sha256": "91afa21bf47a080c63a62deb3392fc9ef7c4f1931b5fd64b2beb5683237ca757",
+      "source": "public-home/demo-adapters.js",
+      "sourceSha256": "91afa21bf47a080c63a62deb3392fc9ef7c4f1931b5fd64b2beb5683237ca757"
+    },
+    "public.css": {
+      "bytes": 2254,
+      "sha256": "dcd21d626b0a318a965d366fcc39d3a6c1d157882ee3549bb72ffe94d8a6e102",
+      "source": "public-home/public.css",
+      "sourceSha256": "dcd21d626b0a318a965d366fcc39d3a6c1d157882ee3549bb72ffe94d8a6e102"
+    },
+    "icons.js": {
+      "bytes": 4904,
+      "sha256": "2cd21ab4dfc45c406cfa3e23de4e1ea28a6d6599e5eae060972533f3065856f9",
+      "source": "js/icons.js",
+      "sourceSha256": "2cd21ab4dfc45c406cfa3e23de4e1ea28a6d6599e5eae060972533f3065856f9"
+    },
+    "app.js": {
+      "bytes": 17993,
+      "sha256": "d5558d193185858dab4d8497c4b4bd7aea2670a8625f4a7812ae11add4ca93d6",
+      "source": "js/app.js",
+      "sourceSha256": "d5558d193185858dab4d8497c4b4bd7aea2670a8625f4a7812ae11add4ca93d6"
+    },
+    "home.js": {
+      "bytes": 7147,
+      "sha256": "a9738bba7fbc192030c1d8f1817e7634ba85d9e4385ce33a8ea6394e71ca3457",
+      "source": "js/views/home.js",
+      "sourceSha256": "a9738bba7fbc192030c1d8f1817e7634ba85d9e4385ce33a8ea6394e71ca3457"
+    },
+    "shopping.js": {
+      "bytes": 12095,
+      "sha256": "62851b576fa88e4088cce4322dcdc5df7256147ad988b19f9cc8d04add1a6b45",
+      "source": "js/views/shopping.js",
+      "sourceSha256": "62851b576fa88e4088cce4322dcdc5df7256147ad988b19f9cc8d04add1a6b45"
+    },
+    "photos.js": {
+      "bytes": 3991,
+      "sha256": "9818785b9420082b9899c99b40b8853c52cf46e98f396fcc720fb0181fe905ad",
+      "source": "js/views/photos.js",
+      "sourceSha256": "9818785b9420082b9899c99b40b8853c52cf46e98f396fcc720fb0181fe905ad"
+    },
+    "sky.js": {
+      "bytes": 9846,
+      "sha256": "4d31f1660f90d1209a10e3c330c46534a09e70fd21adebfb142a65f86283353e",
+      "source": "js/sky.js",
+      "sourceSha256": "4d31f1660f90d1209a10e3c330c46534a09e70fd21adebfb142a65f86283353e"
+    },
+    "tokens.css": {
+      "bytes": 1189,
+      "sha256": "ce14cbbcaf032e100884ea186a684354ca63c221c95b7de0882db17b1e72d992",
+      "source": "css/tokens.css",
+      "sourceSha256": "ce14cbbcaf032e100884ea186a684354ca63c221c95b7de0882db17b1e72d992"
+    },
+    "base.css": {
+      "bytes": 15124,
+      "sha256": "141841c46b3abeb64cb1e0e853f13adf6f64891f18573615c4b50fabf8d249fc",
+      "source": "css/base.css",
+      "sourceSha256": "141841c46b3abeb64cb1e0e853f13adf6f64891f18573615c4b50fabf8d249fc"
+    },
+    "sky.css": {
+      "bytes": 8584,
+      "sha256": "bcdfecb114e892a9451dae2427ba4ff7e203216386c2b8fb19a9b4004d4265da",
+      "source": "css/sky.css",
+      "sourceSha256": "bcdfecb114e892a9451dae2427ba4ff7e203216386c2b8fb19a9b4004d4265da"
+    },
+    "home.css": {
+      "bytes": 4339,
+      "sha256": "3915cc4e2f4e491ec29e6ec0653ae6f99a1b82f91fc6ba35451d33c6ca5fe5c5",
+      "source": "css/views/home.css",
+      "sourceSha256": "3915cc4e2f4e491ec29e6ec0653ae6f99a1b82f91fc6ba35451d33c6ca5fe5c5"
+    },
+    "cameras.css": {
+      "bytes": 14601,
+      "sha256": "5b86e8fcd0f0de4b4876735b3073f6a80b75d08e8085775be3fe3ff7aff1dd5a",
+      "source": "css/views/cameras.css",
+      "sourceSha256": "5b86e8fcd0f0de4b4876735b3073f6a80b75d08e8085775be3fe3ff7aff1dd5a"
+    },
+    "shopping.css": {
+      "bytes": 4960,
+      "sha256": "f49b077198306c206c5e343071fdf49bcf30b96cff5e6bdc4a19e58accff68fe",
+      "source": "css/views/shopping.css",
+      "sourceSha256": "f49b077198306c206c5e343071fdf49bcf30b96cff5e6bdc4a19e58accff68fe"
+    },
+    "photos.css": {
+      "bytes": 3520,
+      "sha256": "5eff0c3c33856281f3f96b5293e05b6fbcbd5ef62b28d97d6fd27559b4e4fcf2",
+      "source": "css/views/photos.css",
+      "sourceSha256": "5eff0c3c33856281f3f96b5293e05b6fbcbd5ef62b28d97d6fd27559b4e4fcf2"
+    },
+    "archivo-OFL.txt": {
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "source": "public-home/fonts/archivo-OFL.txt",
+      "sourceSha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    "instrument-serif-OFL.txt": {
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "source": "public-home/fonts/instrument-serif-OFL.txt",
+      "sourceSha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    "fonts.css": {
+      "bytes": 178178,
+      "sha256": "d77365b1a32ee5cfd392b9f6443de0fc6c865e28e7646080480694d17fa0f711",
+      "transform": "pinned-woff2-data-uri",
+      "inputs": [
+        {
+          "source": "public-home/fonts/archivo-latin.woff2",
+          "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+        },
+        {
+          "source": "public-home/fonts/instrument-serif-latin.woff2",
+          "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+        },
+        {
+          "source": "public-home/fonts/instrument-serif-italic-latin.woff2",
+          "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+        }
+      ]
+    }
+  }
+}

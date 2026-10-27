@@ -1,0 +1,691 @@
+{
+  "changedSourceFiles": [
+    "demos/moe-office/index.ts",
+    "demos/moe-office/items/_desk-east-graphics.ts",
+    "demos/moe-office/items/_desk-west-gear.ts",
+    "demos/moe-office/shell.ts"
+  ],
+  "excludedOriginalPayloadSha256": [
+    "0751e7b68ee19f56e2dc74d36ff9658322814e985d5e56f559bb58460a4b3714",
+    "0b59aa5ffce334ae7cf5818c03e2ad6e3bcec65bb89e918b95ef4e2cafd7029d",
+    "0bbef6afd0ded37633692ce2bba4024e5813f3ed9070a5dc0e0f4b1e8d136ffc",
+    "1006882416c6ba21e4c0017efdf0f97923310c85e5a240a81f88d87cae591133",
+    "1096558060e294f65db9840f82cf6957ede53afac9f124947a67a3d364d1bcf3",
+    "13c3cf366af40a2a51a13f63208785bdae011461768f665792a47b2d98e6bf64",
+    "141e730ac10c028ff38c4e3e32f840c209735f5cbb2f920f26e2ea8c62005480",
+    "144570a3c9a99ecbf27909abf45de5df51bdfad7ed9e3656d7acc6ecd6711c16",
+    "1479be4f177488a0cf650030b26e40bd89ac6bc678788b44e6e953175da50b0d",
+    "19222248cfd09fead9dff54d45e5eb706496fa54e15d9689961dbadabba5555e",
+    "1d7c0631f91279712ad05ced28f0bd55919394693938044ff0e4a4f938a29de6",
+    "2053e04d42c6b19c6c970acd679a9c27c6f8f5ca6c7c6b72e840a5b2ad65c1f0",
+    "20e0d4422f04965c5d5656957c75b1300840bc5d15389b2b24b99ab871323d0f",
+    "227a10c6f1ecd393618c5baaa65790107a554705dc734cd74059c1c311877e97",
+    "22a2a0ff1ab0b46acceb4f5d695652cdf52a0f5d43a4b765371624e0f3b6a08e",
+    "268c0e09072d42446f634d77460d475a16d802132e8b33d63252e0ad1e26e961",
+    "296f19985be21c2ef4aa6dbd432c431ffd75277e96e65a1b0e49c30b86d31d3b",
+    "2c9cd4a6782a227599e6b51878f2579c342a06a508adc8dcec763474bd34babc",
+    "2fc5179e0d0d2ad3b3c32f309a179c9b2a7fa214bccb006ca577d1b24bf986e6",
+    "30621d7a0f253ba3f321f40e8d28f22ea465c216058c481324a44e3449185348",
+    "36d1dbb9f0d8601936f0da8e74b16c83f7b6bcf484cf499375d9baa287a4e098",
+    "453952ad01c56e14953d654884bfd796f27a82e3d3876f92e47e9b364d74cafb",
+    "4a3ee355f0de09ecca7b1d06bb1eb615a8ff55c93b45a081eb676b82cc09abcf",
+    "4dd797dfa9f0fc699a160fc102c490331fc5c9b274ae009de1aaeeab57e5327f",
+    "56762727b71a18b7c28e96609ef95a236565905ef03b81830d43d4d968ffc3da",
+    "56930059b03563cc9cd0612cf36409b998e69357fdbd16528fbe7bb628a5e4a3",
+    "589380acf2275727170e18e805668f865939ca797dc488b0c0ef8a0af31fba8d",
+    "5e28d2a2a99215d5f1d01cd3fbca8ef7dac1ea3e156d120e7cc81b05cd2366a7",
+    "5ed1f5ebc523620737875eb24354e0f85d24503d35a47c71e710fddec5fda3a7",
+    "6092adaf5df4577ada3df7113ac2de97e97949b9d54440b9644ae0ffa0d4902d",
+    "610e09c51c1f35844dbaa4fff0e24fc9468597b97e7fac96f463672a34376634",
+    "6119827b39578a5081854f0601c86255557ff0bb83479abf1310667a48023964",
+    "61bca7d8f9b34f8751ef622032c29ed0dd678cd67246d4a34f8cbdb7bde3bf17",
+    "642156ccbe676b50feace85d475732b5c0a40d75f1826d031e96c9b6cf0b667b",
+    "6c9791ba10820d21d8ed8af55c6d09770dfcd76b6c8c05f3bf062cac650e052d",
+    "74e7daf9b591b1ac5f8acf2025b910d25f8d7867bc2ab87d3010c91fa27be55b",
+    "7594aff41d26219ca904817c69795db06f3f5d7c827b3478b23ebb6502fdcb90",
+    "79ba395d45882a85e1f5ef0b20847f094db526ed7cbfcc09cccff182cdd8fd50",
+    "79e74fc8aa3e449accdb7b22238231f390f69224275863e4c7be0bf2dabb2ec0",
+    "7ca7295434ace712ee2ab49f55fca85b09194961633c4a006366ad56b86d4c55",
+    "7caec14a6bf5c4a380cb0747cf6423c6ecc888089d443f60d5c8a00eb098ee82",
+    "7ff3ea106837084187747f522fc2f03e7ef1db2047a079b3c91807634326b253",
+    "80e26812a119e885002a2132fd3d687333c0b38b654c402c8cc662be45ea95fb",
+    "814759c2c34880570830fee4a2e3211ed2ea2ccf616dc05e1f375a4d459dbd23",
+    "816c6554dc5469c5901fc305fc953538c67d2f5d9afdee7538ba54e5c56e0bf8",
+    "824f249004d1f502b65295df55598bfc09d6441da63b53930b9f7ff7e43fa3c9",
+    "8870ed27e95d75fc2129c6720d555de4e990031a3077450990f686892345c97c",
+    "8a4c6d464ecabde371ddabacb99ff5e4f9dbb94f2f84718c5bef3c2669e16e68",
+    "8b3a0bf3d8d93a6c25fa7b396c2880af1c20f049dbbb2a96ad70f25ad8d29532",
+    "8c8b1a9169eb214a9c59d8e9bb4595c4f55c9a991637a4bca3091caae5386570",
+    "902c75750440f5757bb1767479bc5e8169d6d97c6e6d23fb1171fb2c50ccc465",
+    "91fbd188b6b0ca8b49f6e1a8211d03be47b47639d040c06dec6bf55349822404",
+    "92e1b6b7de32acb5e93a9a53dd4b3879ab20243535df30bb0b18efdc2ba20d53",
+    "93b6f6b2628ac803a81d0eee5dbe7534b35cbc2a02b33322b55035c597fbd476",
+    "9970e385c747aa593aa7b67928e9df4f880f7fa75ca3bb4a8c75bc23dca4610f",
+    "9a69c15f1876a122b19027510cdc6fa0e809fcf772f08d9a6d5f7751b6f83e1e",
+    "9c05867ec0556ab1b3e7498211a422d64b194c07e83b8b7058f6f5440dd4b822",
+    "9e083e5fc9b1fda4a548807fa562c451bb2c78f072bc68abed262f575527f5a3",
+    "9e5339aaaf8e2f8362c88d5b4832f2877914bfcfbc6f76fc4b965de9f0b3b5ca",
+    "a1a29ae35dae240f23435919a6ed9a882c734dd9ae173007ffc8df783da6d779",
+    "a75423359c10ba2db1c180c66114e1ef91a4c7269e25d54cc803510a9561ff06",
+    "a990116d75e3ecef07b3e6ff0804c594b3e432a2ad52cc55db9079fffe8c0291",
+    "ab92ff075cd11bf64f01fd23329b4546e9a41d0754525074fa8cdddb9e13f962",
+    "b0f68d0628fdaed057b576c58ca0d4c7a33c6c51556cd99995208e29f91ebe27",
+    "b1a7bac9c4854ca7d88c591e192a65621e3254ec6a508a8aadcc96b87945e83d",
+    "b31aac71bcc5094daa1a97cd31ac62c4ca16803287918ca513acc227f4ef1ecb",
+    "b4c779c9f44a858581849d7c151d8cc0a13640b4fb015720b7735531ebad5644",
+    "b68589554d826920ed29cd728c5f8594e9558bae91e1300fcc1d9a9755de711a",
+    "b735c8640d8b023c6e0a3bb687ae961ef1acc790ccb7b59ea88ac086effb3c29",
+    "b843f6739670eb5b7a1da46c07a9ac27becf1d5345ef2c3cbd1395746486c6a9",
+    "b9101c8f19ec0360986cf840e88023a32c66b4f700b59fe4857202dd5bd1a64a",
+    "b9197d8486a9b1d6888bad5e73214a62b1b5342a4b83150dfc93ce628d998df0",
+    "bd359bac281804074285d02f2858ff6af1617815f146836b81021516b491e8bb",
+    "bfc99c857ec0caaf6cfdcd91cef931cf559b98d07f3d15f0e4e2832c907d4768",
+    "c33ecb263afdeb8c60806d5dae2247ea27185a4ee0ffbbde6884edef3fe0739f",
+    "c34f6133a5a5624c82e9ff25f068f0bba1f2fceea3f1a6e2434a8649bec6c437",
+    "c962a6d96f1df3207ae1520f134ebd5280ef1dd3afd9e0ac8756be53af8eb5e2",
+    "cd378a20f65dc6b0ad9e6e999eeb473534f7974fffd7c4575a2b92db34ab1ff9",
+    "d1ace91efd25b8c9e239feb0e977132ac00badba7466044b9e2ffb595429ba63",
+    "d51199cfd68b193476c8c8606dfd0c4417513dfbeef755a3b8f97b12a8679a97",
+    "d69b0f32d5024a16afd23386c559be5b6188676b03196b322c5f3f7435709158",
+    "dab5520d7bb6e22fb5b9ab52dbfb4f76b94b1b4211d71568efaf776c3cb9a553",
+    "de30bb3a50553347d30edd73da8de3f9ee46b9c3e814a847ec8972bf0a153228",
+    "dfd63ea73d221e7a8802471332bde4be023ae935e3db646067b1ea914d8732f8",
+    "e333f1a384ea0c9f80439536ff5016c6485d498c1e00e9eec47dc1da0c39fc49",
+    "e3b152994ecf21f42e74409524de46fc780dd9ceaa6953d7f5dc53d22e5f11b2",
+    "e4df7d05186abbb4e07f399c5ad7c5de58508ffdaf5dbffa236bdbc2de035315",
+    "ea8e3f1104523df54e8d9cb4e60de78d2bf0d3662985047117624cc9034cd97e",
+    "ef0758e5f3cc15c24ec08ee46cacc0260422e1b6a802cdeb9391191cc120b208",
+    "f09a2c04874835cdfb3677a2a34767a9b9df9394eecfb2c6b9be8d2e3e1fd508",
+    "f2eae6933bd9739bb9600780bcaffcd4787012b4ffb4d830b4f0dc3f8b034dac",
+    "f3bdac2b5741a96ef91cca42abfd05563409c45420c05da0df0c38614dc9cc7a",
+    "f70fc51f32a6af84184a147b6262889e1f7a5943868123e2a8e17a9d115232e1",
+    "f8202deabbead00f907a346592744a0d892901d237d0438891ef9dccf14b8919",
+    "fb09d3aa5f7acd1351fe60d7f0dc9032a59e177173f8379468ed3ff618ca091a",
+    "ff85a0a0705135f90148f5d7b749665e2dd7ffd8ba4e84c14a07fb6776dc623b"
+  ],
+  "geometryFieldsPreservedExactly": {
+    "objects": "9e9b40c97890e27f8b4f7187e9956410615c5537196202ca3778d2e0912d3be4",
+    "polygon": "dc1af96095e016a1500bded0ad03538393190b1103db591af2c58abd0651929f",
+    "walls": "d5541b7299bbe00cb8d29f7600d59a5165122b50f9e7430656dfd9c67fc1c40c"
+  },
+  "pixelProvenance": "Original analytic patterns from scripts/public-office/sanitize_model.py; no source pixels, artwork, logos or generic third-party maps sampled.",
+  "privatePhotoCountIncluded": 0,
+  "proceduralAssets": [
+    {
+      "bytes": 4569,
+      "path": "data/web-assets/moe-office/textures/hall-far.jpg",
+      "sha256": "cd0088d2d50266ec82b8f46b47203b644ad8c0d5f2b94648a2e04b600b22d5ed"
+    },
+    {
+      "bytes": 21245,
+      "path": "data/web-assets/moe-office/textures/lounge-marble-photo125.png",
+      "sha256": "2c96943c9b1407153b34e777d4fcce5c17ab35fa2e2db59def115a18ab5c365a"
+    },
+    {
+      "bytes": 5461,
+      "path": "data/web-assets/moe-office/textures/lounge-marble.jpg",
+      "sha256": "47aedbca99256884d9c487f301224c6c7ff3a9ea1695e069cd77cb835a0b5721"
+    },
+    {
+      "bytes": 10928,
+      "path": "data/web-assets/moe-office/textures/lounge-throw.jpg",
+      "sha256": "c71699b5c3f034ffeb70536d44a6d22fafda2d6750f670a3c6227efc17a40793"
+    },
+    {
+      "bytes": 6507,
+      "path": "data/web-assets/moe-office/textures/lounge-tuft-albedo.jpg",
+      "sha256": "7ac170e721d1e4545ffd4631bf03800d20db32cdb01407db520231a4f77aba5f"
+    },
+    {
+      "bytes": 34611,
+      "path": "data/web-assets/moe-office/textures/lounge-tuft-bump.png",
+      "sha256": "c1153eaf513a7b785ff9cf5bca70b656904745e26b6c18d8d75d3cc4df082953"
+    },
+    {
+      "bytes": 3750,
+      "path": "data/web-assets/moe-office/textures/lounge-tuft-nor.png",
+      "sha256": "5c62db8da38c329a7cfda15dc37263ea0d83c8df4792a4fecbbeaf6751f8f2a2"
+    },
+    {
+      "bytes": 877,
+      "path": "data/web-assets/moe-office/textures/lounge-weave-nor.png",
+      "sha256": "ab000d703e002a1fde529e831a8c846a19489596aa81f5ddcb747a95a9dc9714"
+    },
+    {
+      "bytes": 10985,
+      "path": "data/web-assets/moe-office/textures/lounge-weave.jpg",
+      "sha256": "93475da5ba5ae19f653700dad7fb91e49543bdb411e4a50e0c4b536fa19dfa77"
+    },
+    {
+      "bytes": 7356,
+      "path": "data/web-assets/moe-office/textures/lounge-whiteboard.jpg",
+      "sha256": "2c110001bde791268c21112a163f2e7c02e8d092be4e7888487ef5e69d8220eb"
+    },
+    {
+      "bytes": 13450,
+      "path": "data/web-assets/moe-office/textures/prayer-crest.jpg",
+      "sha256": "c2d73a0d606b4f0e848693b4074e9bf6cc5872501cd1ecba7f22f5945ace9180"
+    },
+    {
+      "bytes": 5645,
+      "path": "data/web-assets/moe-office/textures/prayer-drawer.jpg",
+      "sha256": "b944e983f79222a12cb9639073f676c691219a5853a89fe0469706960f775cbe"
+    },
+    {
+      "bytes": 5642,
+      "path": "data/web-assets/moe-office/textures/prayer-inlay.jpg",
+      "sha256": "7165ff051eab54300baef03c514b1f5d2802dabc54a6d878e828ee5d466f2023"
+    },
+    {
+      "bytes": 10660,
+      "path": "data/web-assets/moe-office/textures/prayer-lace.jpg",
+      "sha256": "e460325ac34e42f9803bfd61bf5873bb409593df3c2263f9660176cfc63078ae"
+    },
+    {
+      "bytes": 794,
+      "path": "data/web-assets/moe-office/textures/prayer-register.png",
+      "sha256": "69a2c023a3502232e080fc85b7cb1629c4556d740f02ea76b8ca57bba0b940ce"
+    },
+    {
+      "bytes": 18394,
+      "path": "data/web-assets/moe-office/textures/prayer-rug.jpg",
+      "sha256": "161c220e10c891e8463f66e5464b124e0d2e448e67d91b8672207063039b3b1c"
+    },
+    {
+      "bytes": 1286,
+      "path": "data/web-assets/moe-office/textures/public-box.png",
+      "sha256": "d131218a351fd9c8bf8ba5740d6b202a7398dbc49a911b88867b2c553c889fcc"
+    },
+    {
+      "bytes": 1176,
+      "path": "data/web-assets/moe-office/textures/public-label.png",
+      "sha256": "5ee3c5c2256a1b742417ef44cdc08691fbfef914ae4c15f52aa94aae33b1711d"
+    },
+    {
+      "bytes": 2003,
+      "path": "data/web-assets/moe-office/textures/public-notebook.png",
+      "sha256": "73f1faa61a8bda8c5233a1a0b2e180a37967d7f9cee4626a0a910cedaca710df"
+    },
+    {
+      "bytes": 10617,
+      "path": "data/web-assets/textures/carpet_diff.jpg",
+      "sha256": "805d62de2afbe81f3a95df88e2a5049fd66f86280af4bab16751a726f65f9446"
+    },
+    {
+      "bytes": 7148,
+      "path": "data/web-assets/textures/carpet_nor.jpg",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    {
+      "bytes": 9387,
+      "path": "data/web-assets/textures/carpet_rough.jpg",
+      "sha256": "8bf0cd49dac62ebd0c19768346f0a6f40e1f2095c8b0702598784f082740e1b7"
+    },
+    {
+      "bytes": 5624,
+      "path": "data/web-assets/textures/laminate_diff.jpg",
+      "sha256": "c15f78772d9e0e85ff92589943e92d1cdf74c4ac91c6f17621f8f0e29550132f"
+    },
+    {
+      "bytes": 2421,
+      "path": "data/web-assets/textures/laminate_nor.jpg",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    {
+      "bytes": 9390,
+      "path": "data/web-assets/textures/laminate_rough.jpg",
+      "sha256": "ae24dea53a1dc571ea4a715c6aa2c0efc3b142ec3611b18c74918e2e45698042"
+    },
+    {
+      "bytes": 4785,
+      "path": "data/web-assets/textures/leather_diff.jpg",
+      "sha256": "ac0553e2ca53015fa63e3b40fc398798901a6fecdab0dac3777f5e8eb3847d13"
+    },
+    {
+      "bytes": 2421,
+      "path": "data/web-assets/textures/leather_nor.jpg",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    {
+      "bytes": 9393,
+      "path": "data/web-assets/textures/leather_rough.jpg",
+      "sha256": "35244e1d76e34e12b2ae26346a413be5d6f9629e5415b3510cd164ab3bcd0712"
+    },
+    {
+      "bytes": 10607,
+      "path": "data/web-assets/textures/linen_diff.jpg",
+      "sha256": "f88e0b550aae1a39053de8872cf8fc6b8387d94db4bb73cbe135e3d87587f182"
+    },
+    {
+      "bytes": 7148,
+      "path": "data/web-assets/textures/linen_nor.jpg",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    {
+      "bytes": 9408,
+      "path": "data/web-assets/textures/linen_rough.jpg",
+      "sha256": "da7c267090ca655b4215038a39d079f778a966911bd287dfd9ec7f2469446d52"
+    },
+    {
+      "bytes": 5705,
+      "path": "data/web-assets/textures/oak_diff.jpg",
+      "sha256": "dc0c2749c029aaf3793d3f071a8263aa5bb358447ebcbcd8f13e767883a7ed6e"
+    },
+    {
+      "bytes": 2421,
+      "path": "data/web-assets/textures/oak_nor.jpg",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    {
+      "bytes": 9373,
+      "path": "data/web-assets/textures/oak_rough.jpg",
+      "sha256": "6dc113f4c3b0f23ecf0410b168e7e1798d166ed366cf0aa84c2e7139e0125648"
+    },
+    {
+      "bytes": 2421,
+      "path": "data/web-assets/textures/plaster_nor.jpg",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    {
+      "bytes": 5710,
+      "path": "data/web-assets/textures/woodfloor_diff.jpg",
+      "sha256": "3f48f461ee2b80c5255f8f4eb1c2474694b99eb71e0f5183de6fa375b7d6b994"
+    },
+    {
+      "bytes": 2421,
+      "path": "data/web-assets/textures/woodfloor_nor.jpg",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    {
+      "bytes": 9394,
+      "path": "data/web-assets/textures/woodfloor_rough.jpg",
+      "sha256": "c4c5b158f507556be8ed23a4a7eb47b8d273afe68976ed8b2bdb5c0ed8973ba2"
+    },
+    {
+      "bytes": 10588,
+      "path": "data/web-assets/textures/wool_diff.jpg",
+      "sha256": "5db4213b0a676c1f2359bb38a341a111c14d99dd1dd56d68c089e8789a374839"
+    },
+    {
+      "bytes": 7148,
+      "path": "data/web-assets/textures/wool_nor.jpg",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    {
+      "bytes": 9431,
+      "path": "data/web-assets/textures/wool_rough.jpg",
+      "sha256": "a166845b61a4ed4061bbecf4c31d203c0658c547b0db096e3fad8a93e9229379"
+    }
+  ],
+  "proceduralImageCount": 41,
+  "removedDataKeys": [
+    "photos",
+    "source",
+    "transform"
+  ],
+  "sanitizerSha256": "f27df131524f3877b60678561ed32aefa5b5061defad716c7b1d1f96b6f26b75",
+  "schema": 1,
+  "sources": [
+    {
+      "path": "demos/moe-office/index.ts",
+      "sanitizedSha256": "91667b2f132c6b41b681a869dd09a2c90d2895c069b649307b46e9c7fb83acbd",
+      "sourceSha256": "f4de2d93a86407f3af1bfadac6515bfc12f4d401a8d6f0445ae5ff9efcb36416"
+    },
+    {
+      "path": "demos/moe-office/items/_boucle-geo.ts",
+      "sanitizedSha256": "b376d2c2215f76efdcf920cc3e8523248678a0b8e97edee1024b8a79d9f82a46",
+      "sourceSha256": "b376d2c2215f76efdcf920cc3e8523248678a0b8e97edee1024b8a79d9f82a46"
+    },
+    {
+      "path": "demos/moe-office/items/_boucle-mats.ts",
+      "sanitizedSha256": "a12aec7432d9fb227840f472ca7fb869c3a4eaad760a078d7d24530b3065445b",
+      "sourceSha256": "a12aec7432d9fb227840f472ca7fb869c3a4eaad760a078d7d24530b3065445b"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-clusterb-kit.ts",
+      "sanitizedSha256": "d9ab9b032848b56ac43bf94a687a1735b5158ba1f8d8f0c019a442fa777d63fd",
+      "sourceSha256": "d9ab9b032848b56ac43bf94a687a1735b5158ba1f8d8f0c019a442fa777d63fd"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-clusterb-mats.ts",
+      "sanitizedSha256": "5c855dde9b6cac5a3e35db71d52b5ea4698e987c54fab8b833510424876bc6f7",
+      "sourceSha256": "5c855dde9b6cac5a3e35db71d52b5ea4698e987c54fab8b833510424876bc6f7"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-chair.ts",
+      "sanitizedSha256": "be2e949e9ddd8c48c79590e49806e213d70627e3cc58ef0269b4dad7048b6856",
+      "sourceSha256": "be2e949e9ddd8c48c79590e49806e213d70627e3cc58ef0269b4dad7048b6856"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-desk.ts",
+      "sanitizedSha256": "fee1a1af3c3e206d85a1aa9b7f71abbe96f878b94f451309a8240b98a6d2560e",
+      "sourceSha256": "fee1a1af3c3e206d85a1aa9b7f71abbe96f878b94f451309a8240b98a6d2560e"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-gear.ts",
+      "sanitizedSha256": "1018e4ab8c1d13fbf246d84622c105d9b06b1c78ef0805422e46f55c9c7eb08b",
+      "sourceSha256": "1018e4ab8c1d13fbf246d84622c105d9b06b1c78ef0805422e46f55c9c7eb08b"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-geo.ts",
+      "sanitizedSha256": "1b6b433833b37fbc83eb93451f4bc0e83bff7048a4551b79cb8dc834beebfbe5",
+      "sourceSha256": "1b6b433833b37fbc83eb93451f4bc0e83bff7048a4551b79cb8dc834beebfbe5"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-graphics.ts",
+      "sanitizedSha256": "b15746ba6889bd1455d038327e2f634a83bcb62dcf0be4196762a783627c4e0e",
+      "sourceSha256": "e4a09423185771303c6072cdae61e9bc7e6f2d8769075ed6e066f79948b94ec7"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-lovegear.ts",
+      "sanitizedSha256": "a30061bf540586c6e48e644d6fbf32d8df5d74271a4adfb131218c366684cc7a",
+      "sourceSha256": "a30061bf540586c6e48e644d6fbf32d8df5d74271a4adfb131218c366684cc7a"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-east-mats.ts",
+      "sanitizedSha256": "412b66bfb89d1d6bf96a832c890cb6ae44a687f1df2a5bfa663037169304b55f",
+      "sourceSha256": "412b66bfb89d1d6bf96a832c890cb6ae44a687f1df2a5bfa663037169304b55f"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-toys-a.ts",
+      "sanitizedSha256": "768fb3eeb99901257b90495aac51ab7353f94d2d9cfabfb1293997be038f4b52",
+      "sourceSha256": "768fb3eeb99901257b90495aac51ab7353f94d2d9cfabfb1293997be038f4b52"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-toys-b.ts",
+      "sanitizedSha256": "d4ce267c0140efe8744d3222c993420b302e25ca60a32e64bd6d1d3a7de6812e",
+      "sourceSha256": "d4ce267c0140efe8744d3222c993420b302e25ca60a32e64bd6d1d3a7de6812e"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-toys-c.ts",
+      "sanitizedSha256": "0c08869b88097fd0c00a2aeb028ac3e31a555b6a396eb969356b854a5b8417b7",
+      "sourceSha256": "0c08869b88097fd0c00a2aeb028ac3e31a555b6a396eb969356b854a5b8417b7"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-toys-kit.ts",
+      "sanitizedSha256": "98be551b84151578cf7181dd0198f4bce2c71c6ab62466cb92040a8fa714d052",
+      "sourceSha256": "98be551b84151578cf7181dd0198f4bce2c71c6ab62466cb92040a8fa714d052"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-toys-mats.ts",
+      "sanitizedSha256": "513e1ba42d0bbf5123ffbd7fcf6d6db8e2b69b91f7437d884c4fcf53b4edb31f",
+      "sourceSha256": "513e1ba42d0bbf5123ffbd7fcf6d6db8e2b69b91f7437d884c4fcf53b4edb31f"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-chair.ts",
+      "sanitizedSha256": "f37273a1da86cf3306b94640baa8ab95f952781133dd892ecde8091966d4b995",
+      "sourceSha256": "f37273a1da86cf3306b94640baa8ab95f952781133dd892ecde8091966d4b995"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-desk.ts",
+      "sanitizedSha256": "90346a6f64874919ac60fa34c632c6f97e6c5dd0192b2a578efa670ec5233b77",
+      "sourceSha256": "90346a6f64874919ac60fa34c632c6f97e6c5dd0192b2a578efa670ec5233b77"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-gear.ts",
+      "sanitizedSha256": "70045ff3bebfe6cadb0cf240a8bf3f9b24df74dd5a14bf93776dfa7eaf1a20ae",
+      "sourceSha256": "281f2457c2a1247a3a069033a3f5edffe14d6e3c16b0bc0eb16937184454094b"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-kit.ts",
+      "sanitizedSha256": "a8e1df98a9174ad6968638022ce6d3e2c96d9c93d198eb55f1e17ffb243fcbcd",
+      "sourceSha256": "a8e1df98a9174ad6968638022ce6d3e2c96d9c93d198eb55f1e17ffb243fcbcd"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-mats.ts",
+      "sanitizedSha256": "58e3387008f4e09a01bd9c3c1d44214c4eaa6dcb38fe292bebd4fde96d30879b",
+      "sourceSha256": "58e3387008f4e09a01bd9c3c1d44214c4eaa6dcb38fe292bebd4fde96d30879b"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-side.ts",
+      "sanitizedSha256": "826cd6c3c75618a05563f03d9cf84b2e813320d47eb03b5b027822caf670577f",
+      "sourceSha256": "826cd6c3c75618a05563f03d9cf84b2e813320d47eb03b5b027822caf670577f"
+    },
+    {
+      "path": "demos/moe-office/items/_desk-west-toys.ts",
+      "sanitizedSha256": "179d0cbf6fd969c93be61047b8c8578905876160977c8c3df7dd98edd9ebefcd",
+      "sourceSha256": "179d0cbf6fd969c93be61047b8c8578905876160977c8c3df7dd98edd9ebefcd"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-appl.ts",
+      "sanitizedSha256": "ae74a82feedb9e8ab38dd608f140a4156e861f3fa0cff058368c507c11fd89ec",
+      "sourceSha256": "ae74a82feedb9e8ab38dd608f140a4156e861f3fa0cff058368c507c11fd89ec"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-cart.ts",
+      "sanitizedSha256": "dd972fe847cbfb4c89c1cc4dd8d519d84eb5fb5f009432f160e4b94d57c5c7ba",
+      "sourceSha256": "dd972fe847cbfb4c89c1cc4dd8d519d84eb5fb5f009432f160e4b94d57c5c7ba"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-geo.ts",
+      "sanitizedSha256": "ea5d5c1a5705cdd03ec1a5c3cb9cbf35539be16bda3d7c75a6c48e219a4a1e0f",
+      "sourceSha256": "ea5d5c1a5705cdd03ec1a5c3cb9cbf35539be16bda3d7c75a6c48e219a4a1e0f"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-mats.ts",
+      "sanitizedSha256": "585b7f6e5bf0ce1ea70eab6bef8b0e9ddb308e2eda7ef5d359885454bbf7e861",
+      "sourceSha256": "585b7f6e5bf0ce1ea70eab6bef8b0e9ddb308e2eda7ef5d359885454bbf7e861"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-mirror.ts",
+      "sanitizedSha256": "bcc245783456a90415a71c47c5b5ab90778700e8f546a63475241e0a28c43c89",
+      "sourceSha256": "bcc245783456a90415a71c47c5b5ab90778700e8f546a63475241e0a28c43c89"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-tv.ts",
+      "sanitizedSha256": "ec1102e6fae1898892518a3bc7b482d3de68adb80e494c3c8d4a3934471eea77",
+      "sourceSha256": "ec1102e6fae1898892518a3bc7b482d3de68adb80e494c3c8d4a3934471eea77"
+    },
+    {
+      "path": "demos/moe-office/items/_fireplace-unit.ts",
+      "sanitizedSha256": "97fb2ebcf3364ac76640b279860c9dc0e5d39359f1745ffcee17548a90994652",
+      "sourceSha256": "97fb2ebcf3364ac76640b279860c9dc0e5d39359f1745ffcee17548a90994652"
+    },
+    {
+      "path": "demos/moe-office/items/_lounge-geo.ts",
+      "sanitizedSha256": "9634b0146fe2743a8098f6930c4ba11787ffb663733c5fd53d03df736876666c",
+      "sourceSha256": "9634b0146fe2743a8098f6930c4ba11787ffb663733c5fd53d03df736876666c"
+    },
+    {
+      "path": "demos/moe-office/items/_lounge-mats.ts",
+      "sanitizedSha256": "2b73d1f8993ee44fb7568060f9cbf8e8455bdd6c055c1051105b43c3b7c58232",
+      "sourceSha256": "2b73d1f8993ee44fb7568060f9cbf8e8455bdd6c055c1051105b43c3b7c58232"
+    },
+    {
+      "path": "demos/moe-office/items/_lounge-ne.ts",
+      "sanitizedSha256": "f6f86323e2eb70fda69d886383804ce082b00ec27021d3cb47a7e1566efeafbe",
+      "sourceSha256": "f6f86323e2eb70fda69d886383804ce082b00ec27021d3cb47a7e1566efeafbe"
+    },
+    {
+      "path": "demos/moe-office/items/_lounge-sofa.ts",
+      "sanitizedSha256": "01e0311a0cf8fa71eb5f7c96ff73fff8787375b97f94e504ee49cb0cf3e8249b",
+      "sourceSha256": "01e0311a0cf8fa71eb5f7c96ff73fff8787375b97f94e504ee49cb0cf3e8249b"
+    },
+    {
+      "path": "demos/moe-office/items/_lounge-table.ts",
+      "sanitizedSha256": "6a3755efd11dcf7e17e53730adf59b790bd8c285828d39e1ce45a402e26dca1f",
+      "sourceSha256": "6a3755efd11dcf7e17e53730adf59b790bd8c285828d39e1ce45a402e26dca1f"
+    },
+    {
+      "path": "demos/moe-office/items/_moe-kit.ts",
+      "sanitizedSha256": "2f8eb85e3b60a30735b9c38f5a6d9d56f97b44b1d6e52a5b59238e69d54de474",
+      "sourceSha256": "2f8eb85e3b60a30735b9c38f5a6d9d56f97b44b1d6e52a5b59238e69d54de474"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-chest.ts",
+      "sanitizedSha256": "371dda3c3ea1426ab055a83c8aa83c9cfcd1b1656c0f7fc040dc0f591c9d7975",
+      "sourceSha256": "371dda3c3ea1426ab055a83c8aa83c9cfcd1b1656c0f7fc040dc0f591c9d7975"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-geo.ts",
+      "sanitizedSha256": "138ec0be6c30b00e9b6666ee30dc4025f8262b99f6eed21b1af51016ff9b219c",
+      "sourceSha256": "138ec0be6c30b00e9b6666ee30dc4025f8262b99f6eed21b1af51016ff9b219c"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-mats.ts",
+      "sanitizedSha256": "dfdad913b1f580cedcca7b47b3bcd99d84a401c610a44a9f209f6500634412c8",
+      "sourceSha256": "dfdad913b1f580cedcca7b47b3bcd99d84a401c610a44a9f209f6500634412c8"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-panel.ts",
+      "sanitizedSha256": "fbf8c13a0f224e19e7f8a32725ac9f164ec42a2084767a8f426b5c4cde7ea35d",
+      "sourceSha256": "fbf8c13a0f224e19e7f8a32725ac9f164ec42a2084767a8f426b5c4cde7ea35d"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-props.ts",
+      "sanitizedSha256": "301d23976c50fd8fec3e8c11905ccae87abbbd58d757dd25516372a3d81b3e1c",
+      "sourceSha256": "301d23976c50fd8fec3e8c11905ccae87abbbd58d757dd25516372a3d81b3e1c"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-tex.ts",
+      "sanitizedSha256": "c32ac370b05303dc0dc41ec11c79e3de1daec891d0a3dac8f36741659f5bce73",
+      "sourceSha256": "c32ac370b05303dc0dc41ec11c79e3de1daec891d0a3dac8f36741659f5bce73"
+    },
+    {
+      "path": "demos/moe-office/items/_prayer-textiles.ts",
+      "sanitizedSha256": "9f1c6793058fab5fd7b4b80d5e5bb242927d706f84199e0d31056a11feb436ca",
+      "sourceSha256": "9f1c6793058fab5fd7b4b80d5e5bb242927d706f84199e0d31056a11feb436ca"
+    },
+    {
+      "path": "demos/moe-office/items/_printer-corner.ts",
+      "sanitizedSha256": "c2622349a1ff8a03fe5bd125bfe0fd6bbfc8f3043f75a957e144f0e78b9a7f68",
+      "sourceSha256": "c2622349a1ff8a03fe5bd125bfe0fd6bbfc8f3043f75a957e144f0e78b9a7f68"
+    },
+    {
+      "path": "demos/moe-office/items/_sdf-sculpt.ts",
+      "sanitizedSha256": "3fc15129f4d87d24c6a057694119c2a92a4c9da7253a9b21d8c0bd63a8b9fdbe",
+      "sourceSha256": "3fc15129f4d87d24c6a057694119c2a92a4c9da7253a9b21d8c0bd63a8b9fdbe"
+    },
+    {
+      "path": "demos/moe-office/items/_toy-gundam.ts",
+      "sanitizedSha256": "eb91cdf17380d83f21a8e7b698f29b364aa9e5cfee1aa98516d398c784794c5e",
+      "sourceSha256": "eb91cdf17380d83f21a8e7b698f29b364aa9e5cfee1aa98516d398c784794c5e"
+    },
+    {
+      "path": "demos/moe-office/items/_toy-kaws.ts",
+      "sanitizedSha256": "dfb8cf6a48ba41c51a3746779fec90c8f87146f9aefab9973bd1511199c19f51",
+      "sourceSha256": "dfb8cf6a48ba41c51a3746779fec90c8f87146f9aefab9973bd1511199c19f51"
+    },
+    {
+      "path": "demos/moe-office/items/_toy-lavender.ts",
+      "sanitizedSha256": "063b6a967e18d65a4c8b165fa0a0c44062e681f3221f3384f38a7ca6a4f38bee",
+      "sourceSha256": "063b6a967e18d65a4c8b165fa0a0c44062e681f3221f3384f38a7ca6a4f38bee"
+    },
+    {
+      "path": "demos/moe-office/items/_tufted-set.ts",
+      "sanitizedSha256": "138068f16a0b84d7e97159c63147fed046ff6b574a5a752348d332643350c997",
+      "sourceSha256": "138068f16a0b84d7e97159c63147fed046ff6b574a5a752348d332643350c997"
+    },
+    {
+      "path": "demos/moe-office/items/_winix-d480.ts",
+      "sanitizedSha256": "6a2700c08288ec2e8555d688b2677eda7f23fc4bc537d8a80fcc5233f487a3ba",
+      "sourceSha256": "6a2700c08288ec2e8555d688b2677eda7f23fc4bc537d8a80fcc5233f487a3ba"
+    },
+    {
+      "path": "demos/moe-office/items/boucle-corner.ts",
+      "sanitizedSha256": "d8094d3c1198cce000cc5e9a3428408e1268ae85cd28b081d301aac089a0437e",
+      "sourceSha256": "d8094d3c1198cce000cc5e9a3428408e1268ae85cd28b081d301aac089a0437e"
+    },
+    {
+      "path": "demos/moe-office/items/desk-clusterb.ts",
+      "sanitizedSha256": "4ce14efb810a1febe43d6a8368fe10a26181aa65c84e6ac5ec65d0f29c882d5f",
+      "sourceSha256": "4ce14efb810a1febe43d6a8368fe10a26181aa65c84e6ac5ec65d0f29c882d5f"
+    },
+    {
+      "path": "demos/moe-office/items/desk-east.ts",
+      "sanitizedSha256": "9fc73c1238d0795b0085eec3a9f9f35bce17dd680bd2066826670b8470894ef6",
+      "sourceSha256": "9fc73c1238d0795b0085eec3a9f9f35bce17dd680bd2066826670b8470894ef6"
+    },
+    {
+      "path": "demos/moe-office/items/desk-toys.ts",
+      "sanitizedSha256": "77ed8819035da6153a24b22785576aebc9b68425f0ebd2ae07fb70865a55aa12",
+      "sourceSha256": "77ed8819035da6153a24b22785576aebc9b68425f0ebd2ae07fb70865a55aa12"
+    },
+    {
+      "path": "demos/moe-office/items/desk-west.ts",
+      "sanitizedSha256": "681a93cb542d09c3fd700c4905bc5262636136c06820dcaeb3e63492094bd114",
+      "sourceSha256": "681a93cb542d09c3fd700c4905bc5262636136c06820dcaeb3e63492094bd114"
+    },
+    {
+      "path": "demos/moe-office/items/fireplace-wall.ts",
+      "sanitizedSha256": "cc901e2ea4121560f90abf777cb5ba7b7633d81ff429e98931aa991971e8a8a3",
+      "sourceSha256": "cc901e2ea4121560f90abf777cb5ba7b7633d81ff429e98931aa991971e8a8a3"
+    },
+    {
+      "path": "demos/moe-office/items/lounge.ts",
+      "sanitizedSha256": "c22ec186c34b495afdd294e6c1af649d0faf3bd578dcaa55b8e51c9a91fed5b0",
+      "sourceSha256": "c22ec186c34b495afdd294e6c1af649d0faf3bd578dcaa55b8e51c9a91fed5b0"
+    },
+    {
+      "path": "demos/moe-office/items/prayer-station.ts",
+      "sanitizedSha256": "0f27e9760d93aaa2af3ec0010a012a92ba322d1b64bbd69d76cf6d77141ca1f2",
+      "sourceSha256": "0f27e9760d93aaa2af3ec0010a012a92ba322d1b64bbd69d76cf6d77141ca1f2"
+    },
+    {
+      "path": "demos/moe-office/parts/types.ts",
+      "sanitizedSha256": "5d15fc3fe0dde8d944a7b4916fc2f7f679bedef8f03c60b61a29bfbfe14cb19b",
+      "sourceSha256": "5d15fc3fe0dde8d944a7b4916fc2f7f679bedef8f03c60b61a29bfbfe14cb19b"
+    },
+    {
+      "path": "demos/moe-office/shell.ts",
+      "sanitizedSha256": "2b0b4fe0c7d86bd02cdc48a07d26da49301df4950a2d9990d91f7e306c901fc1",
+      "sourceSha256": "dd386d8d4c5462743b1ee0e21bfc7651355242e472b3f5dd3dc3ac146e753759"
+    },
+    {
+      "path": "packages/room-runtime/batch.ts",
+      "sanitizedSha256": "8cb9ec75d3e7fae9bb7d24dec79d5e2043a4bd2d6186696696407cf1463aafa6",
+      "sourceSha256": "8cb9ec75d3e7fae9bb7d24dec79d5e2043a4bd2d6186696696407cf1463aafa6"
+    },
+    {
+      "path": "packages/room-runtime/camera-depth.ts",
+      "sanitizedSha256": "4e44df4d5b7d5c26dd02180f4a469a4c8de2468f33578ae2dc335f20f177e755",
+      "sourceSha256": "4e44df4d5b7d5c26dd02180f4a469a4c8de2468f33578ae2dc335f20f177e755"
+    },
+    {
+      "path": "packages/room-runtime/dispose.ts",
+      "sanitizedSha256": "462414e208f21d04e9abc4c7eb12143eca4ed9288a9a739012da1c9dcf1951c7",
+      "sourceSha256": "462414e208f21d04e9abc4c7eb12143eca4ed9288a9a739012da1c9dcf1951c7"
+    },
+    {
+      "path": "packages/room-runtime/dynamic-shadows.ts",
+      "sanitizedSha256": "fb9e5e4e1ecb85377a396f8ec3f16cdeddccc0edd7c508b16eae1d0f7b81dc74",
+      "sourceSha256": "fb9e5e4e1ecb85377a396f8ec3f16cdeddccc0edd7c508b16eae1d0f7b81dc74"
+    },
+    {
+      "path": "packages/room-runtime/helpers.ts",
+      "sanitizedSha256": "94ed87f05400e78430b0bf836a10d34c5d351baa34f06cc434a31b9bbc8ed3cb",
+      "sourceSha256": "94ed87f05400e78430b0bf836a10d34c5d351baa34f06cc434a31b9bbc8ed3cb"
+    },
+    {
+      "path": "packages/room-runtime/lighting.ts",
+      "sanitizedSha256": "d4627b053fac344d9c10b246457c11f375c851f42f6728669f1b198173780e87",
+      "sourceSha256": "d4627b053fac344d9c10b246457c11f375c851f42f6728669f1b198173780e87"
+    },
+    {
+      "path": "packages/room-runtime/materials.ts",
+      "sanitizedSha256": "865654771a8881d0863b922042b32a93919ad69c9eed02135e41e2da547c6688",
+      "sourceSha256": "865654771a8881d0863b922042b32a93919ad69c9eed02135e41e2da547c6688"
+    },
+    {
+      "path": "packages/room-runtime/render.ts",
+      "sanitizedSha256": "cbcaf9b829491fe012625669d515f3e7928b00350dc47dd31a0ced53ed0f56d0",
+      "sourceSha256": "cbcaf9b829491fe012625669d515f3e7928b00350dc47dd31a0ced53ed0f56d0"
+    },
+    {
+      "path": "packages/room-runtime/types.ts",
+      "sanitizedSha256": "5905ea2cd9f484348389d70b7362444348cdcf98961cdbdab5cf046ebb808390",
+      "sourceSha256": "5905ea2cd9f484348389d70b7362444348cdcf98961cdbdab5cf046ebb808390"
+    },
+    {
+      "path": "packages/room-runtime/wall-overlaps.ts",
+      "sanitizedSha256": "2d4f5a55bff1cc86a79aad96c8e731b0dcaab5660fb28cc4e0d0557e0a689386",
+      "sourceSha256": "2d4f5a55bff1cc86a79aad96c8e731b0dcaab5660fb28cc4e0d0557e0a689386"
+    },
+    {
+      "path": "packages/room-runtime/walls.ts",
+      "sanitizedSha256": "94f5f2cf89bfd1372c5ff2a4602b97cc490a635b6b10bb9c97ed28527934750e",
+      "sourceSha256": "94f5f2cf89bfd1372c5ff2a4602b97cc490a635b6b10bb9c97ed28527934750e"
+    }
+  ],
+  "status": "SANITIZED-SOURCE-NO-PRIVATE-PIXELS"
+}

@@ -1,0 +1,23 @@
+/* Privacy-only additions. Layout, shell, cards, clock and sky come unchanged
+   from the real Home HQ styles. No replacement dashboard/theme is defined here. */
+.public-preview:not(.public-demo) .rail-item, .public-preview:not(.public-demo) .h-shop, .public-preview:not(.public-demo) .h-photo { cursor: default; }
+.public-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 24px; text-align: center; }
+.public-placeholder b { font: 700 18px/1.2 var(--sans); }
+.public-placeholder span { max-width: 250px; font: 16px/1.4 var(--sans); }
+.h-shop .public-placeholder { flex: 1; min-height: 0; padding: 12px 0; }
+.h-photo-stage .public-placeholder { padding-bottom: 80px; }
+.public-label, .public-clock-source { position: absolute; bottom: 6px; color: var(--ink-2); font: 700 10px/1.2 var(--sans); letter-spacing: .025em; }
+.public-label { right: 24px; text-transform: uppercase; }
+.public-clock-source { left: 100px; }
+.public-no-script { position: absolute; left: 100px; top: 30px; }
+/* Interactive public-demo affordances only; shared view layout remains original. */
+.public-demo button:focus-visible, .public-demo input:focus-visible { outline: 3px solid var(--warm); outline-offset: 3px; }
+.demo-art { display: block; width: 100%; height: 100%; }
+.demo-art-mark { position: absolute; left: 14px; top: 14px; z-index: 1; color: #fff; background: rgba(0, 0, 0, .6); padding: 5px 8px; border-radius: 6px; font: 700 11px/1.2 var(--sans); }
+.cam-tile > .demo-art { position: absolute; inset: 0; }
+.demo-scene-stage { height: 260px; border-radius: 14px; overflow: hidden; position: relative; margin: 18px 0; }
+.demo-scene-note { font-size: 17px; line-height: 1.5; }
+.public-demo-reset { position: absolute; left: 8px; bottom: 90px; z-index: 6; width: 60px; padding: 8px 6px; border-radius: 12px; background: var(--ink); color: var(--on-ink); font-size: 12px; font-weight: 700; }
+.public-demo .cv-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.public-demo .public-label { z-index: 7; }
+@media (prefers-reduced-motion: reduce) { .public-demo *, .public-demo *::before, .public-demo *::after { animation: none !important; transition: none !important; } }

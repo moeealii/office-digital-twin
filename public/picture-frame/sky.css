@@ -1,0 +1,57 @@
+/* Sky theme, Apple Weather style: the page is the sky. js/weather.js sets
+   <html data-sky="dawn|day|dusk|night" data-wx="clear|partly|cloudy|fog|rain|snow|storm"> from the real
+   sunrise/sunset and current conditions (preview: ?sky=dusk&wx=rain). Each look is a deep vertical
+   gradient whose stops were interpolated in OKLCH (tools/sky-gen.py; WebView 106 has no `in oklch`),
+   type is white, and panels are frosted glass tints instead of paper cards. js/sky.js adds a still
+   overlay (sun bloom, stars, haze). Nothing animates: the frame's GPU can't keep up. */
+:root {
+  --sky: none;
+  --base: #3f86dc;
+  --paper: var(--base);          /* text on white "ink" pills picks up the sky colour */
+  --paper-2: rgba(255, 255, 255, .13);
+  --card: rgba(255, 255, 255, .13);
+  --ink: #FFFFFF; --ink-rgb: 255 255 255;
+  --ink-2: rgba(255, 255, 255, .86);
+  --mute: rgba(255, 255, 255, .68);
+  --line: rgba(255, 255, 255, .24);
+  --on-ink: #13203D;
+  --glass-edge: rgba(255, 255, 255, .16);
+}
+:root[data-wx="clear"] { --sky: linear-gradient(180deg, #1f63c4 0.0%, #2367c7 6.9%, #276cca 13.8%, #2b70cd 20.6%, #2f75d0 27.5%, #3379d3 34.4%, #377dd6 41.2%, #3b82d9 48.1%, #3f86dc 55.0%, #448add 60.6%, #4a8edf 66.2%, #4f92e0 71.9%, #5496e1 77.5%, #5a9ae2 83.1%, #5f9ee4 88.8%, #65a2e5 94.4%, #6aa6e6 100.0%); --base: #3f86dc; }
+:root[data-wx="partly"] { --sky: linear-gradient(180deg, #2f6cb8 0.0%, #3470ba 6.9%, #3873bd 13.8%, #3c77bf 20.6%, #417ac2 27.5%, #457ec4 34.4%, #4981c6 41.2%, #4e85c9 48.1%, #5288cb 55.0%, #588ccd 60.6%, #5d90ce 66.2%, #6294d0 71.9%, #6898d2 77.5%, #6d9bd3 83.1%, #739fd5 88.8%, #78a3d6 94.4%, #7ea7d8 100.0%); --base: #5288cb; }
+:root[data-wx="cloudy"] { --sky: linear-gradient(180deg, #4f6880 0.0%, #526b83 6.9%, #566f86 13.8%, #597289 20.6%, #5c758c 27.5%, #607990 34.4%, #637c93 41.2%, #678096 48.1%, #6a8399 55.0%, #6d869c 60.6%, #71899f 66.2%, #748ca2 71.9%, #788fa4 77.5%, #7b92a7 83.1%, #7f95aa 88.8%, #8298ad 94.4%, #869bb0 100.0%); --base: #6a8399; }
+:root[data-wx="fog"] { --sky: linear-gradient(180deg, #68778a 0.0%, #6b7a8c 6.9%, #6e7c8f 13.8%, #707f91 20.6%, #738293 27.5%, #768596 34.4%, #798798 41.2%, #7c8a9b 48.1%, #7f8d9d 55.0%, #82909f 60.6%, #8592a2 66.2%, #8895a4 71.9%, #8b98a6 77.5%, #8e9ba9 83.1%, #919dab 88.8%, #94a0ae 94.4%, #97a3b0 100.0%); --base: #7f8d9d; }
+:root[data-wx="rain"] { --sky: linear-gradient(180deg, #3c4e63 0.0%, #3f5166 6.9%, #425469 13.8%, #44576d 20.6%, #475a70 27.5%, #4a5d73 34.4%, #4d6176 41.2%, #50647a 48.1%, #53677d 55.0%, #566a80 60.6%, #596d83 66.2%, #5c7086 71.9%, #5f7389 77.5%, #63778d 83.1%, #667a90 88.8%, #697d93 94.4%, #6c8096 100.0%); --base: #53677d; }
+:root[data-wx="snow"] { --sky: linear-gradient(180deg, #5c7896 0.0%, #5f7b99 6.9%, #637e9c 13.8%, #66819f 20.6%, #6a84a1 27.5%, #6d88a4 34.4%, #718ba7 41.2%, #748eaa 48.1%, #7891ad 55.0%, #7b94b0 60.6%, #7f97b2 66.2%, #829ab5 71.9%, #869db7 77.5%, #89a1ba 83.1%, #8da4bd 88.8%, #90a7bf 94.4%, #94aac2 100.0%); --base: #7891ad; }
+:root[data-wx="storm"] { --sky: linear-gradient(180deg, #262c3b 0.0%, #282f3e 6.9%, #2b3142 13.8%, #2d3445 20.6%, #303748 27.5%, #323a4c 34.4%, #353c4f 41.2%, #373f53 48.1%, #3a4256 55.0%, #3d4559 60.6%, #3f475c 66.2%, #424a5f 71.9%, #444d62 77.5%, #475065 83.1%, #4a5268 88.8%, #4c556b 94.4%, #4f586e 100.0%); --base: #3a4256; }
+:root[data-sky="dawn"][data-wx="clear"] { --sky: linear-gradient(180deg, #2c3f7c 0.0%, #3f4482 6.9%, #514987 13.8%, #624e8b 20.6%, #72548d 27.5%, #815a8f 34.4%, #8f618f 41.2%, #9c688f 48.1%, #a9708f 55.0%, #b3748e 60.6%, #bc788c 66.2%, #c57c89 71.9%, #ce8186 77.5%, #d58782 83.1%, #dc8d7e 88.8%, #e3937a 94.4%, #e89a76 100.0%); --base: #a9708f; }
+:root[data-sky="dawn"][data-wx="partly"] { --sky: linear-gradient(180deg, #33467f 0.0%, #444b84 6.9%, #544f88 13.8%, #63558b 20.6%, #715a8c 27.5%, #7e608e 34.4%, #8a678f 41.2%, #966d8f 48.1%, #a07590 55.0%, #a9788f 60.6%, #b17b8e 66.2%, #b97f8c 71.9%, #c1838a 77.5%, #c88787 83.1%, #ce8c83 88.8%, #d49180 94.4%, #d9977c 100.0%); --base: #a07590; }
+:root[data-sky="dusk"][data-wx="clear"] { --sky: linear-gradient(180deg, #232e6a 0.0%, #2e3371 6.9%, #393777 13.8%, #443c7d 20.6%, #4f4183 27.5%, #5a4688 34.4%, #654b8d 41.2%, #705092 48.1%, #7b5596 55.0%, #8a5795 60.6%, #995a91 66.2%, #a75e8c 71.9%, #b46286 77.5%, #c0677e 83.1%, #ca6d76 88.8%, #d2746c 94.4%, #d97d63 100.0%); --base: #7b5596; }
+:root[data-sky="dusk"][data-wx="partly"] { --sky: linear-gradient(180deg, #2a3470 0.0%, #343875 6.9%, #3e3d79 13.8%, #48417e 20.6%, #524682 27.5%, #5b4a85 34.4%, #654f89 41.2%, #6e548c 48.1%, #77598f 55.0%, #855c8e 60.6%, #925e8c 66.2%, #9e6288 71.9%, #a96683 77.5%, #b36b7d 83.1%, #bc7177 88.8%, #c37770 94.4%, #c97f6a 100.0%); --base: #77598f; }
+:root[data-sky="night"][data-wx="clear"] { --sky: linear-gradient(180deg, #060b24 0.0%, #070d29 6.9%, #080f2d 13.8%, #0a1132 20.6%, #0b1336 27.5%, #0d153b 34.4%, #0e1840 41.2%, #101a45 48.1%, #111c4a 55.0%, #131e4d 60.6%, #142151 66.2%, #162354 71.9%, #182558 77.5%, #1a285b 83.1%, #1b2a5f 88.8%, #1d2d62 94.4%, #1f2f66 100.0%); --base: #111c4a; }
+:root[data-sky="night"][data-wx="partly"] { --sky: linear-gradient(180deg, #08102a 0.0%, #09122e 6.9%, #0b1432 13.8%, #0c1636 20.6%, #0e173a 27.5%, #0f193e 34.4%, #111b42 41.2%, #121d46 48.1%, #141f4a 55.0%, #16214d 60.6%, #172450 66.2%, #192653 71.9%, #1b2856 77.5%, #1d2b59 83.1%, #1e2d5c 88.8%, #20305f 94.4%, #223262 100.0%); --base: #141f4a; }
+:root[data-sky="night"][data-wx="cloudy"] { --sky: linear-gradient(180deg, #11172a 0.0%, #13192d 6.9%, #141b2f 13.8%, #161d32 20.6%, #181f35 27.5%, #1a2138 34.4%, #1b243a 41.2%, #1d263d 48.1%, #1f2840 55.0%, #212a42 60.6%, #232c45 66.2%, #252f47 71.9%, #26314a 77.5%, #28334c 83.1%, #2a354f 88.8%, #2c3851 94.4%, #2e3a54 100.0%); --base: #1f2840; }
+:root[data-sky="night"][data-wx="fog"] { --sky: linear-gradient(180deg, #1a2130 0.0%, #1c2332 6.9%, #1d2535 13.8%, #1f2737 20.6%, #21293a 27.5%, #232b3c 34.4%, #242e3f 41.2%, #263041 48.1%, #283244 55.0%, #2a3446 60.6%, #2c3749 66.2%, #2f394b 71.9%, #313b4e 77.5%, #333e50 83.1%, #354053 88.8%, #384355 94.4%, #3a4558 100.0%); --base: #283244; }
+:root[data-sky="night"][data-wx="rain"] { --sky: linear-gradient(180deg, #081620 0.0%, #091822 6.9%, #0a1a25 13.8%, #0b1c27 20.6%, #0c1e2a 27.5%, #0e202c 34.4%, #0f222f 41.2%, #102431 48.1%, #112634 55.0%, #122836 60.6%, #142a39 66.2%, #152c3b 71.9%, #162e3d 77.5%, #183140 83.1%, #193342 88.8%, #1b3545 94.4%, #1c3747 100.0%); --base: #112634; }
+:root[data-sky="night"][data-wx="snow"] { --sky: linear-gradient(180deg, #1a2640 0.0%, #1c2843 6.9%, #1e2b46 13.8%, #202d49 20.6%, #22304c 27.5%, #24324f 34.4%, #263552 41.2%, #283755 48.1%, #2a3a58 55.0%, #2c3d5b 60.6%, #2f405f 66.2%, #314362 71.9%, #344666 77.5%, #364969 83.1%, #394c6d 88.8%, #3b4f70 94.4%, #3e5274 100.0%); --base: #2a3a58; }
+:root[data-sky="night"][data-wx="storm"] { --sky: linear-gradient(180deg, #0d0a1f 0.0%, #0f0b22 6.9%, #100d25 13.8%, #120e27 20.6%, #140f2a 27.5%, #16112d 34.4%, #171230 41.2%, #191433 48.1%, #1b1536 55.0%, #1d1639 60.6%, #1f173b 66.2%, #20193e 71.9%, #221a41 77.5%, #241b44 83.1%, #261c46 88.8%, #281e49 94.4%, #2a1f4c 100.0%); --base: #1b1536; }
+:root[data-sky="night"] { --card: rgba(255, 255, 255, .08); --paper-2: rgba(255, 255, 255, .09); --line: rgba(255, 255, 255, .16); --glass-edge: rgba(255, 255, 255, .1); }
+
+.stage { background-color: var(--base); isolation: isolate; color: var(--ink); }
+.stage::before {
+  content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -2; pointer-events: none;
+  background-image: var(--sky);
+  will-change: transform;        /* its own layer: never repainted by clock ticks or camera refreshes */
+}
+.sky { position: absolute; left: 0; top: 0; width: 1280px; height: 800px; z-index: -1; pointer-events: none; }
+
+/* glass panels and hairlines instead of paper cards and black rules */
+.stage .card { box-shadow: inset 0 0 0 1px var(--glass-edge); }
+.stage .rail { background: rgba(0, 0, 0, .1); border-right: 1px solid var(--line); }
+.stage .h-clock, .stage .h-weather, .stage .h-camstat { border-bottom: 1px solid var(--line); }
+.h-time, .h-wx-temp { text-shadow: 0 1px 24px rgba(0, 0, 0, .12); }
+.stage .h-hr.is-wet .h-hr-i { color: #A9D2FF; }
+.stage .cam-tile, .stage .h-photo { box-shadow: 0 1px 0 var(--glass-edge), 0 8px 24px rgba(0, 0, 0, .14); }
+.stage .h-cs-row.is-down small { color: #FFB4A8; }
+.stage .home { text-shadow: 0 1px 3px rgba(0, 0, 0, .16); }   /* white type stays legible over clouds */
+.stage .h-date, .stage .h-wx-meta, .stage .h-wx-say, .stage .h-hr, .stage .h-camstat { text-shadow: 0 1px 6px rgba(0, 0, 0, .34); }

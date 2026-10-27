@@ -1,0 +1,9 @@
+{
+  "buildContract": "App build uses shipped room artifacts only; original private-image reconstruction is not included.",
+  "completeRoom": true,
+  "firstPartyLicenseSelected": false,
+  "modelReferenceSourceIncluded": true,
+  "privateCaptureFilesIncluded": false,
+  "status": "reviewed-inputs",
+  "unreviewedRuntimeArtifactsIncluded": false
+}

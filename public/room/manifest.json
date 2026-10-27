@@ -1,0 +1,28 @@
+{
+  "room": "moe-office",
+  "sourceCommit": "unknown",
+  "builtAt": "2026-10-27T17:27:52.069Z",
+  "codeBytes": 1825595,
+  "assetBytes": 318300,
+  "assetCount": 41,
+  "sculptBytes": 5410835,
+  "previewSculptBytes": 427176,
+  "previewTextureBytes": 25202,
+  "sourceHash": "9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612",
+  "environment": {
+    "version": 1,
+    "sourceHash": "9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612",
+    "bindingHash": "67e45e5fd79c63bf6044c867bd5cc01b97a525e8864b3babaad72be9b5b78285",
+    "binaryHash": "5de2334d700547abea8c0780cb451ca8ce62d0962d7f42865758cc3c7453f038",
+    "file": "environment-5de2334d700547abea8c0780cb451ca8ce62d0962d7f42865758cc3c7453f038.bin.gz",
+    "width": 1536,
+    "height": 2048,
+    "intensity": 1,
+    "revision": "186",
+    "byteLength": 25165824,
+    "bytes": 5085175,
+    "format": "rgba16f-cubeuv",
+    "compression": "gzip"
+  },
+  "publicSceneEditorSourceHash": "e43c904a0549c2ef5f9c2f85728f6d0fdb0b2902251b2f08f63533893f098e5a"
+}

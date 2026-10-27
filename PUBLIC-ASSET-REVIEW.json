@@ -1,0 +1,669 @@
+{
+  "geometryChecks": {
+    "roomMeasurementFields": {
+      "objects": "9e9b40c97890e27f8b4f7187e9956410615c5537196202ca3778d2e0912d3be4",
+      "polygon": "dc1af96095e016a1500bded0ad03538393190b1103db591af2c58abd0651929f",
+      "walls": "d5541b7299bbe00cb8d29f7600d59a5165122b50f9e7430656dfd9c67fc1c40c"
+    },
+    "sculpts-preview.json": {
+      "binaryHash": "3472ce3d625df7d2ce3ea3ca712fcff51bb159d557bddf327e2ff56afa36e34b",
+      "exactGeometryBinaryPreserved": true
+    },
+    "sculpts.json": {
+      "binaryHash": "2569370d3da677ec1d0384b80d59819d0b5e50d68bf952ff865bc045c595b48c",
+      "exactGeometryBinaryPreserved": true
+    }
+  },
+  "householdServicesConnected": false,
+  "privateSourcePixelsIncluded": false,
+  "reviewedRuntime": {
+    "public/favicon.svg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "668a93d208425d0022392f70e699ccbb766399af9a7ce112518522f6b8ff646c"
+    },
+    "public/frame-demo-poster.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c60c9886faed2e19341af0f2c82645a043893f93c787f7b96a4b513bdebc0d50"
+    },
+    "public/og.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "03e72e730dfe83eedb4d6cb39074defd2080e347dba61039a940020f1ef8211b"
+    },
+    "public/room-poster.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "117ba38695538e47a8c9d58b8172c8eb47dd6ffaa817cf9532fec4b23cd0a8d1"
+    },
+    "public/room/assets/sculpt-worker-6hgKZfSB.js": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "a883809fee0254546ceb53ca519628cd7c53c83036748e70110d66ccca0974dd"
+    },
+    "public/room/engine.js": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ce2249bcc54c8a0cd911a2813df967dfc3d46de8c0e3b508447a71feba0eb337"
+    },
+    "public/room/environment-5de2334d700547abea8c0780cb451ca8ce62d0962d7f42865758cc3c7453f038.bin.gz": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "3d6e4a3e6856e4dde628c452487303d785c901c4dcf29c8ba6152c612caed710"
+    },
+    "public/room/environment.json": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "6ba5af5a7c25a316ba80ed707c59b50c908da01eca3c035c6562fbccf3c8a26d"
+    },
+    "public/room/manifest.json": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "f563be6d16c57c0ff7a1a587689c348edc8c9587a1276601ab8200728a90ce51"
+    },
+    "public/room/moe-office/textures/hall-far.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "cd0088d2d50266ec82b8f46b47203b644ad8c0d5f2b94648a2e04b600b22d5ed"
+    },
+    "public/room/moe-office/textures/lounge-marble-photo125.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "2c96943c9b1407153b34e777d4fcce5c17ab35fa2e2db59def115a18ab5c365a"
+    },
+    "public/room/moe-office/textures/lounge-marble.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "47aedbca99256884d9c487f301224c6c7ff3a9ea1695e069cd77cb835a0b5721"
+    },
+    "public/room/moe-office/textures/lounge-throw.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c71699b5c3f034ffeb70536d44a6d22fafda2d6750f670a3c6227efc17a40793"
+    },
+    "public/room/moe-office/textures/lounge-tuft-albedo.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "7ac170e721d1e4545ffd4631bf03800d20db32cdb01407db520231a4f77aba5f"
+    },
+    "public/room/moe-office/textures/lounge-tuft-bump.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c1153eaf513a7b785ff9cf5bca70b656904745e26b6c18d8d75d3cc4df082953"
+    },
+    "public/room/moe-office/textures/lounge-tuft-nor.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "5c62db8da38c329a7cfda15dc37263ea0d83c8df4792a4fecbbeaf6751f8f2a2"
+    },
+    "public/room/moe-office/textures/lounge-weave-nor.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ab000d703e002a1fde529e831a8c846a19489596aa81f5ddcb747a95a9dc9714"
+    },
+    "public/room/moe-office/textures/lounge-weave.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "93475da5ba5ae19f653700dad7fb91e49543bdb411e4a50e0c4b536fa19dfa77"
+    },
+    "public/room/moe-office/textures/lounge-whiteboard.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "2c110001bde791268c21112a163f2e7c02e8d092be4e7888487ef5e69d8220eb"
+    },
+    "public/room/moe-office/textures/prayer-crest.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c2d73a0d606b4f0e848693b4074e9bf6cc5872501cd1ecba7f22f5945ace9180"
+    },
+    "public/room/moe-office/textures/prayer-drawer.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "b944e983f79222a12cb9639073f676c691219a5853a89fe0469706960f775cbe"
+    },
+    "public/room/moe-office/textures/prayer-inlay.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "7165ff051eab54300baef03c514b1f5d2802dabc54a6d878e828ee5d466f2023"
+    },
+    "public/room/moe-office/textures/prayer-lace.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e460325ac34e42f9803bfd61bf5873bb409593df3c2263f9660176cfc63078ae"
+    },
+    "public/room/moe-office/textures/prayer-register.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "69a2c023a3502232e080fc85b7cb1629c4556d740f02ea76b8ca57bba0b940ce"
+    },
+    "public/room/moe-office/textures/prayer-rug.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "161c220e10c891e8463f66e5464b124e0d2e448e67d91b8672207063039b3b1c"
+    },
+    "public/room/moe-office/textures/public-box.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "d131218a351fd9c8bf8ba5740d6b202a7398dbc49a911b88867b2c553c889fcc"
+    },
+    "public/room/moe-office/textures/public-label.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "5ee3c5c2256a1b742417ef44cdc08691fbfef914ae4c15f52aa94aae33b1711d"
+    },
+    "public/room/moe-office/textures/public-notebook.png": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "73f1faa61a8bda8c5233a1a0b2e180a37967d7f9cee4626a0a910cedaca710df"
+    },
+    "public/room/previews.json": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "3627928ac3668302aa8c48dc1a2189feca2ea4dccbb9acecd2b6b7f04045064c"
+    },
+    "public/room/previews/161c220e10c891e8463f66e5464b124e0d2e448e67d91b8672207063039b3b1c.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "46375729af695167ca6b28c5b0fd0fd24bee3be0178123465e08286ce36aa6a5"
+    },
+    "public/room/previews/2c110001bde791268c21112a163f2e7c02e8d092be4e7888487ef5e69d8220eb.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "9504ccf37dfc35def1c5044da33fc41ddec9ccca297a81183f21198c53d90643"
+    },
+    "public/room/previews/2c96943c9b1407153b34e777d4fcce5c17ab35fa2e2db59def115a18ab5c365a.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "769f128c040f8777168fff1f7ad104643913f0f9baebe07517dfba7bbd50adf8"
+    },
+    "public/room/previews/35244e1d76e34e12b2ae26346a413be5d6f9629e5415b3510cd164ab3bcd0712.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "233fb2d17038f0d1451a4021b7a2eeaa9499293e8d82be471a5e479a92333e86"
+    },
+    "public/room/previews/3f48f461ee2b80c5255f8f4eb1c2474694b99eb71e0f5183de6fa375b7d6b994.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "3ec4f1b6d5b363f78a03fdcaccb845889eaae3ddaca9223585d18f19feb5b26f"
+    },
+    "public/room/previews/47aedbca99256884d9c487f301224c6c7ff3a9ea1695e069cd77cb835a0b5721.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "eca9c6f1d69ac762622e253f9c624a8fa633f25b0933c04653446fca40703050"
+    },
+    "public/room/previews/5c62db8da38c329a7cfda15dc37263ea0d83c8df4792a4fecbbeaf6751f8f2a2.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "57a4dd391c5196557a511d570077a4d08c2f3a8f2b6bf3a199fc6e287aba25b0"
+    },
+    "public/room/previews/5db4213b0a676c1f2359bb38a341a111c14d99dd1dd56d68c089e8789a374839.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "7f6e566cf4beba8bd00c3eb94523b3d39796d66da5234469f9333f19f0e7acde"
+    },
+    "public/room/previews/5ee3c5c2256a1b742417ef44cdc08691fbfef914ae4c15f52aa94aae33b1711d.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "361705ece2e572cc453e5dd3f4ff2795479b94ce4d7ece90fdc3d5e4287f9195"
+    },
+    "public/room/previews/69a2c023a3502232e080fc85b7cb1629c4556d740f02ea76b8ca57bba0b940ce.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "1bef504bda9821696187aa79d84bcfb160bb51956e1aed6daa21422ca541d586"
+    },
+    "public/room/previews/6dc113f4c3b0f23ecf0410b168e7e1798d166ed366cf0aa84c2e7139e0125648.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "81f6dbe93548f8e094dcc98d9f82e5242a1f8da53859f6d60d196860ff14971a"
+    },
+    "public/room/previews/7165ff051eab54300baef03c514b1f5d2802dabc54a6d878e828ee5d466f2023.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c78793b5650d134696359550a0c2f094c5529ee1079e7cc00ec94db4601187eb"
+    },
+    "public/room/previews/73f1faa61a8bda8c5233a1a0b2e180a37967d7f9cee4626a0a910cedaca710df.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "15007a1855987054ca44e3c76d11559194cbff7a7ea8f3efe19950d705c9ec8d"
+    },
+    "public/room/previews/7ac170e721d1e4545ffd4631bf03800d20db32cdb01407db520231a4f77aba5f.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "cd568fa138fddc76a98de6d2f9bd7e639cfb9c5514ebcc16d502772c57fa135e"
+    },
+    "public/room/previews/805d62de2afbe81f3a95df88e2a5049fd66f86280af4bab16751a726f65f9446.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "91013341f62742951c8a32f7d42372db60dd4cc94312f03b3f1a02676e7a3319"
+    },
+    "public/room/previews/8bf0cd49dac62ebd0c19768346f0a6f40e1f2095c8b0702598784f082740e1b7.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "0614f50e622705248240f8576140c65738bb02b9903ca68ac24f7793ed22340f"
+    },
+    "public/room/previews/93475da5ba5ae19f653700dad7fb91e49543bdb411e4a50e0c4b536fa19dfa77.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "d205d1017ead15cae51935b0e86dea785e05324a7f1022d7ea4c50c97f20209b"
+    },
+    "public/room/previews/a166845b61a4ed4061bbecf4c31d203c0658c547b0db096e3fad8a93e9229379.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ecb47b9a1441725bede93d7f58a1d19258e9d57c629f29605e7fc26c36cbca52"
+    },
+    "public/room/previews/ab000d703e002a1fde529e831a8c846a19489596aa81f5ddcb747a95a9dc9714.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "2f80f84e9d6799b8200ba941ee61f8db09cd4fffc42688f8e9fd7ff5cdcf2b13"
+    },
+    "public/room/previews/ac0553e2ca53015fa63e3b40fc398798901a6fecdab0dac3777f5e8eb3847d13.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ab71db268a29a3d8d4ff6ac8cf4e3693134aca744c4a19cc316fececdb471b26"
+    },
+    "public/room/previews/ae24dea53a1dc571ea4a715c6aa2c0efc3b142ec3611b18c74918e2e45698042.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "697f1b8c845230e1ece4cad45306edb780fb56b899a4fe28c080f7f548037e45"
+    },
+    "public/room/previews/b944e983f79222a12cb9639073f676c691219a5853a89fe0469706960f775cbe.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "be06d0c0227d7e071bab12a9eac355ade4434da283af29deff5a5f5972d40746"
+    },
+    "public/room/previews/c1153eaf513a7b785ff9cf5bca70b656904745e26b6c18d8d75d3cc4df082953.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "2fc67f75711df7adf5c95e5f78e027a3b13f1a5b34ddeedc4aeefeda25e0357c"
+    },
+    "public/room/previews/c15f78772d9e0e85ff92589943e92d1cdf74c4ac91c6f17621f8f0e29550132f.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "f2a894edcd08e548168139df712090fed94a936dd63e57c0b01cf13df5514b3b"
+    },
+    "public/room/previews/c2d73a0d606b4f0e848693b4074e9bf6cc5872501cd1ecba7f22f5945ace9180.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "9eb6993f9675483adb8eee29bb5d7bcef6e92f1b0c898c3d61e8d7e5837e5f49"
+    },
+    "public/room/previews/c4c5b158f507556be8ed23a4a7eb47b8d273afe68976ed8b2bdb5c0ed8973ba2.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "882ee401f00bec68e6086e987af52183d4cf87b63a1db0054a38b169a781163d"
+    },
+    "public/room/previews/c71699b5c3f034ffeb70536d44a6d22fafda2d6750f670a3c6227efc17a40793.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "59b7287436efd1140aa684aad774782eb9dd55a31b4a8b12dd67663f7d25d50f"
+    },
+    "public/room/previews/cd0088d2d50266ec82b8f46b47203b644ad8c0d5f2b94648a2e04b600b22d5ed.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "1a6031e5b270b96300a5f6de4ec9f9641ffcf81c4300b7f795e78c301205836c"
+    },
+    "public/room/previews/d131218a351fd9c8bf8ba5740d6b202a7398dbc49a911b88867b2c553c889fcc.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "6150b23e225c087e4af96a88c1623ab8f059b084d4497eb3969070a7ee1db5fb"
+    },
+    "public/room/previews/da7c267090ca655b4215038a39d079f778a966911bd287dfd9ec7f2469446d52.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "1a1c5e0c2523b1ccaa0dc7c66582fddb8d972ae83be2905bd8087190aa6f90d7"
+    },
+    "public/room/previews/dc0c2749c029aaf3793d3f071a8263aa5bb358447ebcbcd8f13e767883a7ed6e.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "0129b48dccbbaf6c2e9c99d4f50badaebc38735b75bfe10aa6fd582ce1cc6c82"
+    },
+    "public/room/previews/e460325ac34e42f9803bfd61bf5873bb409593df3c2263f9660176cfc63078ae.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "585b35f2ba84e5f1c1eb647d0435f957a7d6a4204f4bf708af1570a4d1202066"
+    },
+    "public/room/previews/e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "9e81007d445be57802f7082b9d277ad09e35a6fa818d5f71a792796da1e2601e"
+    },
+    "public/room/previews/f88e0b550aae1a39053de8872cf8fc6b8387d94db4bb73cbe135e3d87587f182.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "12704db67f749d939c3773c513de7c4df3acb11527e3b67e672d7db0775a119c"
+    },
+    "public/room/previews/fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800.webp": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "b13e4064603bc32b43e03fc0aff31f64e02f01fdc17a3a2ae3f2791457e72f1a"
+    },
+    "public/room/scene-editor-viewport.js": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "b89d296c51cdb1f4087552367ce5b46134009e2e316ed27a8a4bd6df38d69521"
+    },
+    "public/room/sculpts-2569370d3da677ec1d0384b80d59819d0b5e50d68bf952ff865bc045c595b48c.bin.gz": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "9669dc066b77b870f4cf624e5d9a657caa6d165415180fcc620c30ce5d7ed84b"
+    },
+    "public/room/sculpts-3472ce3d625df7d2ce3ea3ca712fcff51bb159d557bddf327e2ff56afa36e34b.bin.gz": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "7e260b5f4c1a0bfd0b8cb51c06806a48fc9ff2c226b8ea587604dc373f39666b"
+    },
+    "public/room/sculpts-preview.json": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ebd6a13aacec549d429732c822b7ccfa410daab0ff2625ad3d0a9c66e2c8fb45"
+    },
+    "public/room/sculpts.json": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "a5e94adee7705f92c5412d7856afbc67e6263cadac758c25abe538c3f73a2b61"
+    },
+    "public/room/textures/carpet_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "805d62de2afbe81f3a95df88e2a5049fd66f86280af4bab16751a726f65f9446"
+    },
+    "public/room/textures/carpet_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    "public/room/textures/carpet_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "8bf0cd49dac62ebd0c19768346f0a6f40e1f2095c8b0702598784f082740e1b7"
+    },
+    "public/room/textures/laminate_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c15f78772d9e0e85ff92589943e92d1cdf74c4ac91c6f17621f8f0e29550132f"
+    },
+    "public/room/textures/laminate_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    "public/room/textures/laminate_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ae24dea53a1dc571ea4a715c6aa2c0efc3b142ec3611b18c74918e2e45698042"
+    },
+    "public/room/textures/leather_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "ac0553e2ca53015fa63e3b40fc398798901a6fecdab0dac3777f5e8eb3847d13"
+    },
+    "public/room/textures/leather_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    "public/room/textures/leather_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "35244e1d76e34e12b2ae26346a413be5d6f9629e5415b3510cd164ab3bcd0712"
+    },
+    "public/room/textures/linen_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "f88e0b550aae1a39053de8872cf8fc6b8387d94db4bb73cbe135e3d87587f182"
+    },
+    "public/room/textures/linen_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    "public/room/textures/linen_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "da7c267090ca655b4215038a39d079f778a966911bd287dfd9ec7f2469446d52"
+    },
+    "public/room/textures/oak_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "dc0c2749c029aaf3793d3f071a8263aa5bb358447ebcbcd8f13e767883a7ed6e"
+    },
+    "public/room/textures/oak_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    "public/room/textures/oak_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "6dc113f4c3b0f23ecf0410b168e7e1798d166ed366cf0aa84c2e7139e0125648"
+    },
+    "public/room/textures/plaster_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    "public/room/textures/woodfloor_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "3f48f461ee2b80c5255f8f4eb1c2474694b99eb71e0f5183de6fa375b7d6b994"
+    },
+    "public/room/textures/woodfloor_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "e4b462ddc9351902ecbd9ea46357d651a8c138b9ccd9c379c12ae7c799e4abd6"
+    },
+    "public/room/textures/woodfloor_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "c4c5b158f507556be8ed23a4a7eb47b8d273afe68976ed8b2bdb5c0ed8973ba2"
+    },
+    "public/room/textures/wool_diff.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "5db4213b0a676c1f2359bb38a341a111c14d99dd1dd56d68c089e8789a374839"
+    },
+    "public/room/textures/wool_nor.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "fbe5497833c75b72357f1bd6e5d647a55f15afc2b68c14c53d2fe31b7ed28800"
+    },
+    "public/room/textures/wool_rough.jpg": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "a166845b61a4ed4061bbecf4c31d203c0658c547b0db096e3fad8a93e9229379"
+    },
+    "public/room/tidy.js": {
+      "contains_private_pixels": false,
+      "derivation_review": "Sanitized source SHA256 9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612; engine, full/coarse SDF caches, texture previews and environment regenerated in isolated trusted build; posters captured from this actual public app.",
+      "privacy_review": "Generated exclusively from validated geometry-only model and analytic procedural surfaces; actual safe Home HQ frame renderer. Local image inspection and original-payload hash exclusion performed.",
+      "rights_review": "Existing source MIT/Signals/font notices retained. No original captured image, third-party artwork or generic external texture map is sampled. New analytic surfaces are first-party task output; no extra reuse grant selected.",
+      "sha256": "475dcc72b77aa941f12cec9a1e9595970df4ced81b132c411a4209e6fb21e89a"
+    }
+  },
+  "rightsBoundary": "Inherited source/font notices retained; only original procedural replacement pixels and the actual safe frame renderer are distributed. No new blanket reuse license granted.",
+  "sanitizedSourceHash": "9478a18b21bce936a0169455eb06635bc33ea5b0230f8464da624d21a7966612",
+  "schema": 1,
+  "status": "LOCAL-REVIEWED-PUBLIC-CANDIDATE"
+}

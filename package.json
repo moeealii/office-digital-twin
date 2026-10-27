@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@thealifamily/ui": "file:./packages/ui",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "^6.0.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "three": "0.186.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.4"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "name": "office-public-snapshot",
+  "private": true,
+  "scripts": {
+    "build": "node verify-public.mjs && tsc -p tsconfig.json && vite build",
+    "dev": "node verify-public.mjs && vite",
+    "preview": "node verify-public.mjs && vite preview",
+    "typecheck": "tsc -p tsconfig.json",
+    "verify": "node verify-public.mjs"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}
